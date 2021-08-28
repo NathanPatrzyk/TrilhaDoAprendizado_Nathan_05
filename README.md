@@ -1,2 +1,2 @@
-# TrilhaDoAprendizado_Nathan_06
- Parte 6 do projeto em HTML com síntese de conteúdo
+# TrilhaDoAprendizado_Nathan_07
+ Adicionando novas funcionalidades durante o RDE07.
