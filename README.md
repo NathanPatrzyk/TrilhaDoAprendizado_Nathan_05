@@ -1,2 +1,2 @@
-# TrilhaDoAprendizado_Nathan_05
- Parte 05 de um projeto baseado em HTML com síntese de conteúdo.
+# TrilhaDoAprendizado_Nathan_06
+ Parte 6 do projeto em HTML com síntese de conteúdo
