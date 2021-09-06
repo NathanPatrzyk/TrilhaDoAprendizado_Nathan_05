@@ -224,8 +224,8 @@
 
             <h3>Formatos de Imagens</h3>
 
-                <p><strong>.JPG</strong> --> <em> Photographic Experts Group.</em></p>
-                <p><strong>.PNG</strong> --> <em>Portable Networking Graphic.</em></p>
+                <p><abbr title="Photographic Experts Group.">.JPG</abbr> --> <em> Photographic Experts Group.</em></p>
+                <p><abbr title="Portable Networking Graphic.">.PNG</abbr> --> <em>Portable Networking Graphic.</em></p>
                 <p>Para icones: <strong>.SVG</strong> e <strong>.ICO</strong></p>
 
             <h3>Edição de Imagens</h3>
@@ -254,17 +254,19 @@
 
             <p>Tags de imagem e parâmetros que definem as imagens e propriedades</p>
             <p><strong>Sintaxe:</strong></p>
-            <p><em>&ltimg src="imagem.extensão" width="largura" height="altura" alt="descrição"&gt</em></p>
+            <p><code>&ltimg src="imagem.extensão" width="largura" height="altura" alt="descrição"&gt</code></p>
 
             <p>Apartir do HTML 5 --> Tags figure e figcaption</p>
             <p><strong>Sintaxe:</strong></p>
-            <p><em>&ltfigure&gt<br>--&ltimg src="imagem.extensão" width="largura" height="altura" alt="descrição"&gt<br>--&ltfigcaption&Legenda&lt/&gt<br>&ltfigure&gt</em></p>
+            <p><code>&ltfigure&gt<pre>    &ltimg src="imagem.extensão" width="largura" height="altura" alt="descrição"&gt
+    &ltfigcaption&Legenda&lt/&gt 
+&ltfigure&gt</pre></code></p>
 
         <h2>Marcação de Favicon</h2>
 
             <p>Define o icone da barra de títulos</p>
             <p><strong>Sintaxe:</strong></p>
-            <p><em>&ltlink rel="icon" href="caminho para o icone" type="image/x-icon"&gt</em></p>
+            <p><code>&ltlink rel="icon" href="caminho para o icone" type="image/x-icon"&gt</code></p>
 
             <h3>Sites</h3>
     
@@ -293,7 +295,10 @@
             <h3>Listas Não-Ordenadas</h3>
 
                 <p><strong>Sintaxe</strong></p>
-                <p><em>&ltul&gt<br>--&ltli&gtItem 1&lt/li&gt<br>--&ltli&gtItem 2&lt/li&gt<br>--&ltli&gtItem 3&lt/li&gt<br>&ltul/&gt</em></p>
+                <p><code>&ltul&gt<pre>    &ltli&gtItem 1&lt/li&gt
+    &ltli&gtItem 2&lt/li&gt
+    &ltli&gtItem 3&lt/li&gt
+&ltul/&gt</pre></code></p>
 
                 <p><strong>Compilação</strong></p>
                 <ul>
@@ -305,7 +310,10 @@
             <h3>Listas Ordenadas</h3>
 
                 <p><strong>Sintaxe</strong></p>
-                <p><em>&ltol type="elemento"&gt<br>--&ltli&gtItem 1&lt/li&gt<br>--&ltli&gtItem 2&lt/li&gt<br>--&ltli&gtItem 3&lt/li&gt<br>&ltol/&gt</em></p>
+                <p><code>&ltol type="elemento"&gt<pre>    &ltli&gtItem 1&lt/li&gt
+    &ltli&gtItem 2&lt/li&gt
+    &ltli&gtItem 3&lt/li&gt
+&ltol/&gt</pre></code></p>
 
                 <p><strong>Compilação</strong></p>
                 <ol type="elemento">
@@ -317,7 +325,11 @@
             <h3>Listas Detalhadas</h3>
 
                 <p><strong>Sintaxe</strong></p>
-                <p><em>&ltdl&gt<br>--&ltdt&gtItem 1&lt/li&gt<br>--&ltdd&gtEsse é o primeiro item&lt/dd&gt<br>--&ltli&gtItem 2&lt/li&gt<br>--&ltdd&gtEsse é o segundo item&lt/dd&gt<br>&ltdl/&gt</em></p>
+                <p><code>&ltdl&gt<pre>    &ltdt&gtItem 1&lt/li&gt
+    &ltdd&gtEsse é o primeiro item&lt/dd&gt
+    &ltli&gtItem 2&lt/li&gt
+    &ltdd&gtEsse é o segundo item&lt/dd&gt
+&ltdl/&gt</pre></code></p>
 
                 <p><strong>Compilação</strong></p>
                 <dl>
@@ -345,55 +357,55 @@
 
         <h2>Marcação de Hyperlinks</h3>
 
-            <p>A marcação <em>hyperlinks</em> é feita utilizando a <em>tag &lta&gt</em> e a <strong>propriedade href</strong> que realiza a referência do conteudo</p>
+            <p>A marcação <em>hyperlinks</em> é feita utilizando a tag <code>&lta&gt</code> e a <strong>propriedade href</strong> que realiza a referência do conteudo</p>
 
             <p><strong>Sintaxe</strong></p>
-            <p><em>&lta href="endereço"&gtConteúdo Clicavel&lt/a&gt</em></p>
+            <p><code>&lta href="endereço"&gtConteúdo Clicavel&lt/a&gt</code></p>
 
             <h3>Hyperlinks Externos ou Remotos</h3>
 
-                <p>São <em>links</em> que fazem referência a sites na web, no <strong>href</strong> usamos uma <strong>URL - Uniform Resource Locator</strong> para referenciar.
+                <p>São <em>links</em> que fazem referência a sites na web, no <code>href</code> usamos uma <strong><abbr title="Uniform Resource Locator">URL</abbr> - Uniform Resource Locator</strong> para referenciar.</p>
 
                 <p><strong>Sintaxe</strong></p>
-                    <p><em>&lta href="URL"&gtConteúdo Clicavel&lt/a&gt</em></p>
+                <p><code>&lta href="URL"&gtConteúdo Clicavel&lt/a&gt</code></p>
 
                 <p><strong>Uso do target=_blank: </strong> adicionar no seu hyperlink, quando clicado o navegador abri-rá uma nova guia.</p>
-                <p><em>&lta href="URL" target="_blank&gtConteúdo Clicavel&lt/a&gt</em></p>
+                <p><code>&lta href="URL" target="_blank&gtConteúdo Clicavel&lt/a&gt</code></p>
 
                 <p><strong>Uso do target="_self":</strong>Ao adicionar no seu hyperlink, quando clicado o navegador abri-rá uma nova guia.</p>
-                <p><em>&lta href="URL" target="_self&gtConteúdo Clicavel&lt/a&gt</em></p>
+                <p><code>&lta href="URL" target="_self&gtConteúdo Clicavel&lt/a&gt</code></p>
 
                 <p><strong>Uso do rel="external":</strong>Define o hyperlink como externo.</p>
-                <p><em>&lta href="URL" target="_blank rel="external"&gtConteúdo Clicavel&lt/a&gt</em></p>
+                <p><code>&lta href="URL" target="_blank rel="external"&gtConteúdo Clicavel&lt/a&gt</code></p>
 
                 <p><strong>Uso do hreflang="Linguagem":</strong> Ao adicionar no seu hyperlink, quando clicado o navegador abri-rá uma nova guia.</p>
-                <p><em>&lta href="URL" target="_blank rel="external" hreflang="Linguagem"&gtConteúdo Clicavel&lt/a&gt</em></p>
+                <p><code>&lta href="URL" target="_blank rel="external" hreflang="Linguagem"&gtConteúdo Clicavel&lt/a&gt</code></p>
 
             <h3>Hyperlinks Internos</h3>
                 <p>São links que apontam para lugares diferentes em um <strong>mesmo</strong> documentos HTML.</p>
 
                 <p><strong>Sintaxe</strong></p>
-                <p><em>&lta href="#referencia"&gtConteúdo Referenciado&lt/a&gt</em></p>
-                <p><em>&lta name="referencia"&gt...&lt/a&gt</em></p>
+                <p><code>&lta href="#referencia"&gtConteúdo Referenciado&lt/a&gt</code></p>
+                <p><code>&lta name="referencia"&gt...&lt/a&gt</code></p>
 
             <h3>Hyperlinks Locais</h3>
                 <p>São links que apontam para <strong>paginas</strong> diferentes em HTML de um mesmo site.</p>
 
                 <p><strong>Sintaxe</strong></p>
-                <p><em>&lta href="arquivo.html"&gtConteúdo Referenciado&lt/a&gt</em></p>
+                <p><code>&lta href="arquivo.html"&gtConteúdo Referenciado&lt/a&gt</code></p>
 
             <h3>Hyperlinks em Imagens</h3>
                 <p>São utilizados para criar hyperlink em uma imagem, utilizam a <strong>tag de imagem</strong> e a <strong>tag de hiperlink.</strong></p>
 
                 <p><strong>Sintaxe</strong></p>
-                <p><em>&lta href="referencia"&gt&ltimg src="imagem.jpg"&gt&lt/a&gt</em></p>
+                <p><code>&lta href="referencia"&gt&ltimg src="imagem.jpg"&gt&lt/a&gt</code></p>
 
             <h3>Hyperlinks para Download de Arquivos</h3>
 
                 <p>Apontam para arquivos e realizam o <em>download</em> dos arquivos selecionados.</p>
 
                 <p><strong>Sintaxe</strong></p>
-                <p><em>&lta href="arquivo.extensão" download="arquivo.extensão" type="Media-Types"&gt&ltConteudo&lt/a&gt</em></p>
+                <p><code>&lta href="arquivo.extensão" download="arquivo.extensão" type="Media-Types"&gt&ltConteudo&lt/a&gt</code></p>
                 
                 <p>Media-Types - é um identificador padrão usado na Internet para indicar o tipo de dado que um arquivo contém. <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" hreflang="en">Media-Types</a></p>
 
@@ -402,7 +414,7 @@
                 <p>Apontam para um <strong>endereço eletrônico</strong> dos arquivos selecionados.</p>
 
                 <p><strong>Sintaxe</strong></p>
-                <p><em>&lta href="mailto:email@email.com"&gt&ltemail@email.com&lt/a&gt</em></p>
+                <p><code>&lta href="mailto:email@email.com"&gt&ltemail@email.com&lt/a&gt</code></p>
 
     <h1><a name="versionamento"></a>Softwares de Versionamento</h1>
         <p>Realiza o controle de versões de determinado projeto ou trabalho. Sendo ele de código ou documento, de uma pessoa ou de uma equipes de pessoas.<br>Funciona atravéz de um <strong>repositório remoto</strong>, que vai <strong>gerenciar e sincronizar</strong> tanto o histórico do <strong>repositório local</strong> como do <strong>repositório remoto</strong>.</p>
