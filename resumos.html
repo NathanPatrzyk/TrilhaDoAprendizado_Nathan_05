@@ -428,12 +428,16 @@
 
         <h2>Tipos de Versionamento</h2>
 
-            <dl>
-                <dt><strong>Centralizado</strong></dt>
-                <dd>Repositório central em um serivdos com controle de versões, depende do servidor. Como exemplo a Software Subversion.</dd>
-                <dt><strong>Distribuído</strong></dt>
-                <dd>Repositório local com controle de versão, que são atualizadas no repositório central, independe do servidor. Como exemplo a Git</dd>
-            </dl>
+            <table>
+                <tr>
+                    <th><strong>Centralizado</strong></th>
+                    <th><strong>Distribuído</strong></th>
+                </tr>
+                <tr>
+                    <td>Repositório central em um servidor com controle de versões, depende do servidor. Como exemplo a Software Subversion.</td>
+                    <td>Repositório local com controle de versão, que são atualizadas no repositório central, independe do servidor. Como exemplo a Git</td>
+                </tr>
+            </table>
         
         <h2>Git</h2>
 
@@ -464,40 +468,40 @@
             </ol>
             <h2>Comandos GIT</h2>
                 <dl>
-                    <dt>commit</dt>
+                    <dt><code>commit</code></dt>
                         <dd>Torna permanente sua alterações do <strong>repositório local</strong>.</dd>
-                    <dt>push</dt>
+                    <dt><code>push</code></dt>
                         <dd>Envia as alterações para o servidor no <strong>repositório remoto</strong>.</dd>
-                    <dt>fetch</dt>
+                    <dt><code>fetch</code></dt>
                         <dd>Verifica se o repositório local está <strong>sicronizado</strong> com o servidor remoto</dd>
-                    <dt>pull</dt>
+                    <dt><code>pull</code></dt>
                         <dd>Sincroniza o repositório local com o remoto <strong>atualizando</strong> as versões.</dd>
                 </dl>
 
         <h2>Crie seu Repositório</h2>
             <ol type="1">
                 <li>No GitHub Desktop: Crie um novo repositório (Na licença altere par <strong>MIT License</strong>, para tornar seu repositório publico ou none para deixa-lo privado).</li>
-                <li>No seu repositório: Publique o seu repositório público no <em>GitHub </em>(Ctrl+P --> Desmarque a opção Manter privado para manter o repositório público).</li>
-                <li>Após criar e publicar seu repositório, abra-o no Visual Studio Code (Ctrl+Shift+A).</li>
+                <li>No seu repositório: Publique o seu repositório público no <em>GitHub </em>(<kbd>Ctrl+P</kbd> --> Desmarque a opção Manter privado para manter o repositório público).</li>
+                <li>Após criar e publicar seu repositório, abra-o no Visual Studio Code (<kbd>Ctrl+Shift+A</kbd>).</li>
                 <li>Faça qualquer alteração no arquivo README e veja sua alteração no GitHub Desktop;</li>
-                <li>No canto inferior do GitHub Desktop realize o commit, adicionando o título no Summary.</li>
-                <li>Realize o push das suas alterações (Ctrl+P).</li>
-                <li>No menu superior pode-se realizar o fetch para conferir se está devidadamente alterado.</li>
+                <li>No canto inferior do GitHub Desktop realize o <code>commit</code>, adicionando o título no Summary.</li>
+                <li>Realize o <code>push</code> das suas alterações (<kbd>Ctrl+P</kbd>).</li>
+                <li>No menu superior pode-se realizar o <code>fetch</code> para conferir se está devidadamente alterado.</li>
             </ol>
         
         <h2>Clonando Repositórios</h2>
             
             <ol type="1">
-                <li>No GitHub: No menu incial, clique em <em>New</em> para criar um novo repositório.</li>
+                <li>No GitHub: No menu inicial, clique em <em>New</em> para criar um novo repositório.</li>
                 <li>No GitHub Desktop: Abra sua lista de repositórios, clique em <em>Add</em> e <em>Clone a repository</em> selecione o repositório que deseja clonar e pressione <em>Clone</em></li>
             </ol>
     
         <h2>Projetos Pré-Existentes</h2>
 
             <ol type="1">
-                <li>No GitHub Desktop: Acesse File --> New repository (Ctrl+N).</li>
+                <li>No GitHub Desktop: Acesse File --> New repository (<kbd>Ctrl+N</kbd>).</li>
                 <li>Ao criar o repositório: Selecione para iniciar com o README e escolha a Licença MIT</li>
-                <li>Após copiar o conteúdo de seu projeto, realize o commit e publique seu repositório (Ctrl+P --> Desmarque a opção Manter privado para manter o repositório público)</li>
+                <li>Após copiar o conteúdo de seu projeto, realize o <code>commit</code> e publique seu repositório (<kbd>Ctrl+P</kbd> --> Desmarque a opção Manter privado para manter o repositório público)</li>
             </ol>
 
             <figure>
@@ -525,10 +529,10 @@
             <h3>Passo a passo:</h3>
                 <ul>
                     <li>No GitHub Desktop crie um novo repositório.</li>
-                    <li>Publique o seu repositório (Ctrl+P).</li>
-                    <li>Abra seu repositório no Visula Studio e crie um arquivo index.html.</li>
+                    <li>Publique o seu repositório (<kbd>Ctrl+P</kbd>).</li>
+                    <li>Abra seu repositório no Visual Studio e crie um arquivo index.html.</li>
                     <li>Edite o arquivo index.html como desejar.</li>
-                    <li>Realize o commit to main.</li>
+                    <li>Realize o <code>commit</code> to main.</li>
                     <li>Até aqui você editou a branch master.</li>
                     <li>Acesse Current Branch e crie um nova branch.</li>
                     <li>New Branch --> Edite o nome como secundaria-01 --> Create branch.</li>
@@ -544,10 +548,10 @@
             <h3>Realizando o Merge:</h3>
                 <p>Realizar um Merge é fazer a junção de um Branch secundário em um Branch Master.</p>
                 <ul>
-                    <li>Selecione a <strong>Branch</strong> que deseja realizar o <strong>Merge</strong> --> Menu --> Branch --> Merge into current branch (Ctrl+Shift+M).</li>
+                    <li>Selecione a <strong>Branch</strong> que deseja realizar o <strong>Merge</strong> --> Menu --> Branch --> Merge into current branch (<kbd>Ctrl+Shift+M</kbd>).</li>
                     <li>Selecione quem você deseja realizar o Merge na Branch selecionada.</li>
                     <li>OBS: Se houver algum conflito, clique em Open on Visual Studio e selecione uma opção (Manter as duas alterações, manter a primeira alteração, manter a segunda alteração).</li>
-                    <li>Para continuar usando a <strong>Branch</strong> secundária após o <strong>Merge</strong>: Menu --> Branch --> Update to main (Ctrl+Shift+U)</li>
+                    <li>Para continuar usando a <strong>Branch</strong> secundária após o <strong>Merge</strong>: Menu --> Branch --> Update to main (<kbd>Ctrl+Shift+U</kbd>)</li>
                 </ul>
             <h3>Criando uma Branch "Terciaria":</h3>
                 <p>Para isso, basta criar uma Branch apartir de sua Branch Secundária.</p>
@@ -562,7 +566,7 @@
                     <li>Abra seu repositório no GitHub.</li>
                     <li>Settings --> Pages.</li>
                     <li>Source --> None --> Selecione o main --> Save.</li>
-                    <li>PRONTO! Basta atualizar a página (F5) e acessar seu site.</li>
+                    <li>PRONTO! Basta atualizar a página (<kbd>F5</kbd>) e acessar seu site.</li>
                 </ul>
                 <p>Agora que você publicou o seu site, deve tomar alguns cuidados como não editar o <strong>Branch Main</strong> diretamente, sempre editar um <strong>Branch Secundario</strong>, testar e depois realizar o <strong>Merge</strong>.</p>
 
