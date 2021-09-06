@@ -52,17 +52,17 @@
             <h3>HTML 3</h3>
 
                 <p><b>Conteúdo - </b>Texto, tabela, imagem e vídeo.</p>
-                <p>Código:<br><em> &lthtml&gt conteudo &lt/html&gt</em></p>
+                <p>Código:<br><code> &lthtml&gtconteudo&lt/html&gt</code></p>
 
             <h3>CSS 3</h3>
 
                 <p><b>Estilização - </b>Cores, fontes, tamanho, sombras, posicionamento.</p>
-                <p>Código:<br><em> p{<br>--conteudo <br>}</em></p>
+                <p>Código:<br><code> p{<pre>    conteudo</pre>}</code></p>
 
             <h3>Java Script</h3>
 
                 <p><b>Interatividade - </b>Menus interativos, pop-ups e animação.</p>
-                <p>Código:<br><em> Function funcao(nome,nome){<br>--conteudo <br>}</em></p>
+                <p>Código:<br><code> Function funcao(nome,nome){<pre>   conteudo</pre>}</code></p>
 
                 <figure>
                     <img src="img/tecnologias.png" alt="HTML, CSS e JavaScript"/>
@@ -113,20 +113,35 @@
             <h3>Tags</h3>
 
                 <p>Realiza a <b>marcação de conteúdo</b>, possuem funcionalidades específicas, sem o seu uso é exibido um texto plano.</p>
-                <p>Código:<br><em>&lttag&gt conteudo &lt/tag&gt</em></p>
+                <p>Código:<br><code>&lttag&gt conteudo &lt/tag&gt</code></p>
 
                 <p>Podem possuir <b>atributos</b>, que fornecem informações extras.</p>
-                <p>Código:<br><em>&lttag atributo="valor"&gt conteudo &lt/tag&gt</em></p>
+                <p>Código:<br><code>&lttag atributo="valor"&gt conteudo &lt/tag&gt</code></p>
 
         <h2>Estrutura Básica do HTML</h2>
         
-            <p>Código:<br><em>&lthtml&gt<br>--&lthead&gt<br>----&lttitle&gtTítulo&lttitle/&gt<br>--&lthead&gt<br>--&ltbody&gt<br>----Texto<br>--&ltbody&gt</em></p>
+            <p>Código:<br><code>&lthtml&gt<pre>    &lthead&gt
+        &lttitle&gtTítulo&lttitle/&gt
+    &lt/head&gt
+    &ltbody&gt
+        Texto
+    &lt/body&gt
+&lt/html&gt</pre></code></p>
 
-            <p>Comentários:<br><em>&lt!--comentando o código--&gt</em></p>
+            <p>Comentários:<br><code>&lt!--comentando o código--&gt</code></p>
 
         <h2>Estrutura do HTML</h2>
 
-            <p>Código:<br><em>&lt!DOCTYPE html&gt<br>&lthtml&gt<br>--&lthead&gt<br>----&lttitle&gtTítulo&lttitle/&gt<br>----&ltmeta charset="UTF-8"&gt<br>----&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt<br>--&lthead&gt<br>--&ltbody&gt<br>----Texto<br>--&ltbody&gt</em></p>
+            <p>Código:<br><code>&lt!DOCTYPE html&gt<pre>&lthtml&gt
+    &lthead&gt
+        &lttitle&gtTítulo&lttitle/&gt
+        &ltmeta charset="UTF-8"&gt
+        &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+    &lt/head&gt
+    &ltbody&gt
+        Texto
+    &lt/body&gt
+&lt/html&gt</pre></code></p>
 
             <figure>
                 <img src="img/tags.png" alt="Tags"/>
@@ -135,15 +150,36 @@
             <h3>Marcação de Títulos</h3>
 
                 <p>Definem o título e seus níveis de importância</p>
-                <p>Código:<br><em>&lth1&gtTítulo 1&lt/h1&gt<br>&lth2&gtTítulo 2&lt/h2&gt<br>&lth3&gtTítulo 3&lt/h3&gt<br>&lth4&gtTítulo 4&lt/h4&gt<br>&lth5&gtTítulo 5&lt/h5&gt<br>&lth6&gtTítulo 6&lt/h6&gt</em></p>
-                <p>Compilação:</p>
-                <h1>Título 1</h1>
-                <h2>Título 2</h2>
-                <h3>Título 3</h3>
-                <h4>Título 4</h4>
-                <h5>Título 5</h5>
-                <h6>Título 6</h6>
-
+                <table>
+                    <tr>
+                        <th>Código:</th>
+                        <th>Compilação:</th>
+                    </tr>
+                    <tr>
+                        <td>&lth1&gtTítulo 1&lt/h1&gt</td>
+                        <td><h1>Título 1</h1></td>
+                    </tr>
+                    <tr>
+                        <td>&lth2&gtTítulo 2&lt/h2&gt</td>
+                        <td><h2>Título 2</h2></td>
+                    </tr>
+                    <tr>
+                        <td>&lth3&gtTítulo 3&lt/h3&gt</td>
+                        <td><h3>Título 3</h3></td>
+                    </tr>
+                    <tr>
+                        <td>&lth4&gtTítulo 4&lt/h4&gt</td>
+                        <td><h4>Título 4</h4></td>
+                    </tr>
+                    <tr>
+                        <td>&lth5&gtTítulo 5&lt/h5&gt</td>
+                        <td><h5>Título 5</h5></td>
+                    </tr>
+                    <tr>
+                        <td>&lth6&gtTítulo 6&lt/h6&gt</td>
+                        <td><h6>Título 6</h6></td>
+                    </tr>
+                </table>
                 <figure>
                     <img src="img/heading.jpg" alt="Títulos"/>
                     <figcaption>Títulos</figcaption>
@@ -152,20 +188,20 @@
             <h3>Marcação de Parágrafos</h3>
 
                 <p>Definem a apresentação dos parágrafos.</p>
-                <p>Código:<br><em>&ltp&gtParágrafo&lt/p&gt</em></p>
+                <p>Código:<br><code>&ltp&gtParágrafo&lt/p&gt</code></p>
                 <p>Compilação:</p>
                 <p>Parágrafo</p>
 
-            <h3>Marcação de Quebra de Linha</h3S>
+            <h3>Marcação de Quebra de Linha</h3>
         
                 <p>Util para escrever poemas ou endereços, realiza a quebra da linha.</p>
-                <p>Código:<br><em>&ltbr&gt</em></p>
+                <p>Código:<br><code>&ltbr&gt</code></p>
 
             <h3>Marcação de Formatação de Texto</h3>
 
                 <p>Definem destaque, tamanho da fonte e cor dos elementos</p>
 
-                <p>Código:<br><em>&ltb&gttexto em negrito&lt/b&gt<br>&ltstrong&gttexto em destaque&lt/b&gt<br>&lti&gttexto em itálico&lt/i&gt<br>&ltem&gttexto com ênfase&lt/em&gt<br>&ltbig&gttexto em tamanho maior&lt/big&gt<br>&ltfont color="blue" size="14"&gtfonte em azul&lt/font&gt</em></p>
+                <p>Código:<br><code>&ltb&gttexto em negrito&lt/b&gt<br>&ltstrong&gttexto em destaque&lt/b&gt<br>&lti&gttexto em itálico&lt/i&gt<br>&ltem&gttexto com ênfase&lt/em&gt<br>&ltbig&gttexto em tamanho maior&lt/big&gt<br>&ltfont color="blue" size="14"&gtfonte em azul&lt/font&gt</code></p>
                 <p>Compilação:</p>
                 <b>texto em negrito<br></b>
                 <strong>texto em destaque<br></strong>
