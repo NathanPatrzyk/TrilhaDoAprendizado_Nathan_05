@@ -750,10 +750,44 @@ Ideal para   textos grandes  e  poemas   .
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/fYJl-7jRzuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <br>
                 <code>&ltiframe src="URL do vídeo do YouTube" height="altura" width="largura" title="Título"&gt&lt/iframe&gt</code>
+
         <h2>Tag <code>&ltvideo&gt</code></h2>
             <p>Usada para inserir um vídeo local, presente em sua máquina.</p>
-            <h3>Sintaxe:</h3>
-                <code>... CONTINUAR</code>
+                
+            <video poster="midias/video/Bike.jpg" controls>
+                <source src="midias/video/_Bike.mp4" type="video/mp4">
+                <source src="midias/video/_Bike.webm" type="video/webm">
+                <source src="midias/video/_Bike.ogv" type="video/ogv">
+            </video>
+            <br>
+
+            <code>&ltvideo poster="Caminho para imagem do vídeo" controls&gt<pre>
+    &ltsource src="Caminho para o vídeo" type="Tipo de vídeo"&gt</pre></code>
+            <p>Pode-se adicionar arquivos em diferentes formatos, caso a primeira opção não funcione.</p>
+        
+        <h2>Tag <code>&ltaudio&gt</code></h2>
+            <p>Usada para inserir um aúdio armazenado localmente, pode-se utilizar a Biblioteca de Audios do Youtube, que possui músicas sem direitos autorais.</p>
+
+            <audio preload="metadata" controls>
+                <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+                <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+                <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+            </audio>
+            <br>
+
+            <code>&ltaudio preload="metadata" controls&gt<pre>
+    &ltsource src="Caminho para o audio" type="Tipo de audio"&gt</pre></code>
+
+        <h2>Tag <code>&ltpicture&gt</code></h2>
+            <p>(...ADICIONAR A DESCRIÇÃO...)</p>
+            <p>(...ADICIONAR EXEMPLO DE CÓDIGO</p>
+
+            <picture>
+                <source media="(max-width:500px)" srcset="midias/img/bike_110.jpg">
+                <source media="(max-width:700px)" srcset="midias/img/bike_320.jpg">
+                <source media="(max-width:1000px)" srcset="midias/img/bike_640.jpg">
+                <img src="midias/img/bike_full.jpg" alt="Mtb Por do Sol">
+            </picture>
 
     <h1><a href="sobre.html">Sobre o Desenvolvedor</a></h1>
 </body>
