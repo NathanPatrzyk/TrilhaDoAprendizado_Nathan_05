@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Conceitos Fundamentais e HTML</title>
+</head>
+<body>
+    <h1>Conceitos Fundamentais e HTML</h1>
+
+        <h2>Ambiente de Trabalho</h2>
+
+            <h3>Editores de Código:</h3>
+
+                <ul>
+                    <li>Notepad ++</li>
+                    <li>Visual Studio Code</li>
+                    <li>Eclipse</li>
+                </ul>
+
+            <h3>Navegadores:</h3>
+
+                <ul>
+                    <li>Google Chrome</li>
+                    <li>Firefox</li>
+                    <li>Microsoft Edge</li>
+                </ul>
+        
+                <figure>
+                    <img src="img/google.png" width="30%" height="30%" alt="Mecanismo de pesquisa do Google"/>
+                    <figcaption>Google Chrome</figcaption>
+                </figure>
+
+        <h2>Tecnologias</h2>
+
+            <h3>HTML 3</h3>
+
+                <p><b>Conteúdo - </b>Texto, tabela, imagem e vídeo.</p>
+                <p>Código:<br><code> &lthtml&gtconteudo&lt/html&gt</code></p>
+
+            <h3>CSS 3</h3>
+
+                <p><b>Estilização - </b>Cores, fontes, tamanho, sombras, posicionamento.</p>
+                <p>Código:<br><code> p{<pre>    conteudo</pre>}</code></p>
+
+            <h3>Java Script</h3>
+
+                <p><b>Interatividade - </b>Menus interativos, pop-ups e animação.</p>
+                <p>Código:<br><code> Function funcao(nome,nome){<pre>   conteudo</pre>}</code></p>
+
+                <figure>
+                    <img src="img/tecnologias.png" alt="HTML, CSS e JavaScript"/>
+                    <figcaption>HTML, CSS e JavaScript</figcaption>
+                </figure>
+
+        <h2>Página Web e Website</h2>
+
+            <h3>Página Web</h3>
+
+                <p>Arquivo onde se pode inserir textos, imagens, vídeos, entre outros. Possuem <b>hipertextos</b> que permitem a navegação entre páginas ou seções.</p>
+
+            <h3>Websites ou Sites</h3>
+
+                <p>Conjunto de páginas armazenadas em uma pasta ou subpasta relacionada de um servidor.</p>
+
+        <h2>Arquitetura Cliente-Servidor e seus profissionais</h2>
+
+            <dl>
+                <dt>Client-Side</dt>
+                <dd><strong>Tecnologias:</strong> HTML, CSS, JavaScript.<br><strong>Profissional:</strong> Front-End.</dd>
+                <dt>Server-Side</dt>
+                <dd><strong>Tecnologias:</strong> Java, MySQL, Python.<br><strong>Profissional:</strong> Back-End.</dd>
+                <dt>FullStack</dt>
+                <dd>Domínio de ambas as tecnologias, desde o lado do cliente até o lado do servidor.</dd>
+            </dl>
+
+        <h2>HTML</h2>
+
+            <p><b>Linguagem de Marcação de Hipertexto,</b> baseada em tags e desenvolvida por <strong>Tim Berners-Lee</strong></p>
+            <p> 
+                <figure>
+                    <a href="img/TimBernersLeeFull.jpg" target="_blank"> <img src="img/TimBernersLee.jpg" alt="Tim Berners-Lee">
+                </figure>
+            </p>
+            <p>O <a href="https://pt.wikipedia.org/wiki/HTML" target="_blank" rel="external" hreflang="en">HTML</a> é usado na publicação de hipertexto, vinculados através de <i>hyperlinks</i>.</p>
+
+            <figure>
+                <img src="img/html.jpg" alt="Imagem de um documento HTML"/>
+                <figcaption>HTML</figcaption>
+            </figure>
+     
+            <br>
+
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Internet1.jpg/298px-Internet1.jpg" alt="www"/>
+            </figure>
+            <h3>Tags</h3>
+
+                <p>Realiza a <b>marcação de conteúdo</b>, possuem funcionalidades específicas, sem o seu uso é exibido um texto plano.</p>
+                <p>Código:<br><code>&lttag&gt conteudo &lt/tag&gt</code></p>
+
+                <p>Podem possuir <b>atributos</b>, que fornecem informações extras.</p>
+                <p>Código:<br><code>&lttag atributo="valor"&gt conteudo &lt/tag&gt</code></p>
+
+        <h2>Estrutura Básica do HTML</h2>
+        
+            <p>Código:<br><code>&lthtml&gt<pre>    &lthead&gt
+        &lttitle&gtTítulo&lttitle/&gt
+    &lt/head&gt
+    &ltbody&gt
+        Texto
+    &lt/body&gt
+&lt/html&gt</pre></code></p>
+
+            <p>Comentários:<br><code>&lt!--comentando o código--&gt</code></p>
+
+        <h2>Estrutura do HTML</h2>
+
+            <p>Código:<br><code>&lt!DOCTYPE html&gt<pre>&lthtml&gt
+    &lthead&gt
+        &lttitle&gtTítulo&lttitle/&gt
+        &ltmeta charset="UTF-8"&gt
+        &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+    &lt/head&gt
+    &ltbody&gt
+        Texto
+    &lt/body&gt
+&lt/html&gt</pre></code></p>
+
+            <figure>
+                <img src="img/tags.png" alt="Tags"/>
+            </figure>
+
+            <h3>Marcação de Títulos</h3>
+
+                <p>Definem o título e seus níveis de importância</p>
+                <table>
+                    <tr>
+                        <th>Código:</th>
+                        <th>Compilação:</th>
+                    </tr>
+                    <tr>
+                        <td>&lth1&gtTítulo 1&lt/h1&gt</td>
+                        <td><h1>Título 1</h1></td>
+                    </tr>
+                    <tr>
+                        <td>&lth2&gtTítulo 2&lt/h2&gt</td>
+                        <td><h2>Título 2</h2></td>
+                    </tr>
+                    <tr>
+                        <td>&lth3&gtTítulo 3&lt/h3&gt</td>
+                        <td><h3>Título 3</h3></td>
+                    </tr>
+                    <tr>
+                        <td>&lth4&gtTítulo 4&lt/h4&gt</td>
+                        <td><h4>Título 4</h4></td>
+                    </tr>
+                    <tr>
+                        <td>&lth5&gtTítulo 5&lt/h5&gt</td>
+                        <td><h5>Título 5</h5></td>
+                    </tr>
+                    <tr>
+                        <td>&lth6&gtTítulo 6&lt/h6&gt</td>
+                        <td><h6>Título 6</h6></td>
+                    </tr>
+                </table>
+                <figure>
+                    <img src="img/heading.jpg" alt="Títulos"/>
+                    <figcaption>Títulos</figcaption>
+                </figure>
+
+            <h3>Marcação de Parágrafos</h3>
+
+                <p>Definem a apresentação dos parágrafos.</p>
+                <p>Código:<br><code>&ltp&gtParágrafo&lt/p&gt</code></p>
+                <p>Compilação:</p>
+                <p>Parágrafo</p>
+
+            <h3>Marcação de Quebra de Linha</h3>
+        
+                <p>Util para escrever poemas ou endereços, realiza a quebra da linha.</p>
+                <p>Código:<br><code>&ltbr&gt</code></p>
+
+            <h3>Marcação de Formatação de Texto</h3>
+
+                <p>Definem destaque, tamanho da fonte e cor dos elementos</p>
+
+                <p>Código:<br><code>&ltb&gttexto em negrito&lt/b&gt<br>&ltstrong&gttexto em destaque&lt/b&gt<br>&lti&gttexto em itálico&lt/i&gt<br>&ltem&gttexto com ênfase&lt/em&gt<br>&ltbig&gttexto em tamanho maior&lt/big&gt<br>&ltfont color="blue" size="14"&gtfonte em azul&lt/font&gt</code></p>
+                <p>Compilação:</p>
+                <b>texto em negrito<br></b>
+                <strong>texto em destaque<br></strong>
+                <i>texto em itálico<br></i>
+                <em>texto com ênfase<br></em>
+                <big>texto em tamanho maior<br></big>
+                <font color="blue" size="14">fonte em azul<br></font>
+</body>
+</html>
