@@ -17,7 +17,7 @@
         <li><a href="conceitos.html">Conceitos Fundamentais e HTML</a></li>
         <li><a href="imagens.html">Imagens e Listas</a></li>
 
-        <li><a href="#hyperlinks">Hyperlinks</a></li>
+        <li><a href="hyperlinks.html">Hyperlinks</a></li>
         <li><a href="#versionamento">Softwares de Versionamento</a></li>
         <li><a href="#branches">Branches e Hospedagens</a></li>
         <li><a href="#tags">Tags Especiais</a></li>
@@ -29,82 +29,7 @@
 
     
 
-    <h1><a name="hyperlinks">Hyperlinks</h1>
-
-        <p><em>É usado como referência dentro de um documento para outras partes do mesmo, para outros documentos ou um endereço qualquer.</em><br> São divididos em:</em></p>
-
-        <ul>
-            <li>Remotos</li>
-            <li>Internos</li>
-            <li>Locais</li>
-            <li>Com endereço ou arquivos</li>
-        </ul>
-
-        <figure>
-            <img src="img/hyperlink.jpg" alt="Hyperlink - Imagem de Gerd Altmann por Pixabay">
-            <figcaption>Hyperlink - Imagem de Gerd Altmann por Pixabay</figcaption>
-        </figure>
-
-        <h2>Marcação de Hyperlinks</h3>
-
-            <p>A marcação <em>hyperlinks</em> é feita utilizando a tag <code>&lta&gt</code> e a <strong>propriedade href</strong> que realiza a referência do conteudo</p>
-
-            <p><strong>Sintaxe</strong></p>
-            <p><code>&lta href="endereço"&gtConteúdo Clicavel&lt/a&gt</code></p>
-
-            <h3>Hyperlinks Externos ou Remotos</h3>
-
-                <p>São <em>links</em> que fazem referência a sites na web, no <code>href</code> usamos uma <strong><abbr title="Uniform Resource Locator">URL</abbr> - Uniform Resource Locator</strong> para referenciar.</p>
-
-                <p><strong>Sintaxe</strong></p>
-                <p><code>&lta href="URL"&gtConteúdo Clicavel&lt/a&gt</code></p>
-
-                <p><strong>Uso do target=_blank: </strong> adicionar no seu hyperlink, quando clicado o navegador abri-rá uma nova guia.</p>
-                <p><code>&lta href="URL" target="_blank&gtConteúdo Clicavel&lt/a&gt</code></p>
-
-                <p><strong>Uso do target="_self":</strong>Ao adicionar no seu hyperlink, quando clicado o navegador abri-rá uma nova guia.</p>
-                <p><code>&lta href="URL" target="_self&gtConteúdo Clicavel&lt/a&gt</code></p>
-
-                <p><strong>Uso do rel="external":</strong>Define o hyperlink como externo.</p>
-                <p><code>&lta href="URL" target="_blank rel="external"&gtConteúdo Clicavel&lt/a&gt</code></p>
-
-                <p><strong>Uso do hreflang="Linguagem":</strong> Ao adicionar no seu hyperlink, quando clicado o navegador abri-rá uma nova guia.</p>
-                <p><code>&lta href="URL" target="_blank rel="external" hreflang="Linguagem"&gtConteúdo Clicavel&lt/a&gt</code></p>
-
-            <h3>Hyperlinks Internos</h3>
-                <p>São links que apontam para lugares diferentes em um <strong>mesmo</strong> documentos HTML.</p>
-
-                <p><strong>Sintaxe</strong></p>
-                <p><code>&lta href="#referencia"&gtConteúdo Referenciado&lt/a&gt</code></p>
-                <p><code>&lta name="referencia"&gt...&lt/a&gt</code></p>
-
-            <h3>Hyperlinks Locais</h3>
-                <p>São links que apontam para <strong>paginas</strong> diferentes em HTML de um mesmo site.</p>
-
-                <p><strong>Sintaxe</strong></p>
-                <p><code>&lta href="arquivo.html"&gtConteúdo Referenciado&lt/a&gt</code></p>
-
-            <h3>Hyperlinks em Imagens</h3>
-                <p>São utilizados para criar hyperlink em uma imagem, utilizam a <strong>tag de imagem</strong> e a <strong>tag de hiperlink.</strong></p>
-
-                <p><strong>Sintaxe</strong></p>
-                <p><code>&lta href="referencia"&gt&ltimg src="imagem.jpg"&gt&lt/a&gt</code></p>
-
-            <h3>Hyperlinks para Download de Arquivos</h3>
-
-                <p>Apontam para arquivos e realizam o <em>download</em> dos arquivos selecionados.</p>
-
-                <p><strong>Sintaxe</strong></p>
-                <p><code>&lta href="arquivo.extensão" download="arquivo.extensão" type="Media-Types"&gt&ltConteudo&lt/a&gt</code></p>
-                
-                <p>Media-Types - é um identificador padrão usado na Internet para indicar o tipo de dado que um arquivo contém. <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" hreflang="en">Media-Types</a></p>
-
-            <h3>Hyperlinks para Endereço Eletrônico</h3>
-
-                <p>Apontam para um <strong>endereço eletrônico</strong> dos arquivos selecionados.</p>
-
-                <p><strong>Sintaxe</strong></p>
-                <p><code>&lta href="mailto:email@email.com"&gt&ltemail@email.com&lt/a&gt</code></p>
+    
 
     <h1><a name="versionamento"></a>Softwares de Versionamento</h1>
         <p>Realiza o controle de versões de determinado projeto ou trabalho. Sendo ele de código ou documento, de uma pessoa ou de uma equipes de pessoas.<br>Funciona atravéz de um <strong>repositório remoto</strong>, que vai <strong>gerenciar e sincronizar</strong> tanto o histórico do <strong>repositório local</strong> como do <strong>repositório remoto</strong>.</p>
