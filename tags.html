@@ -1,32 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  
-    <title>Na Trilha do Aprendizado</title>
+    <title>Document</title>
 </head>
 <body>
-    <p><font size="14">Na Trilha do Aprendizado</font></p>
-
-    <h1>MENU</h1>
-    <p>Acesse por aqui o conteúdo de cada aula:</p>
-    <ol type="1">
-        <li><a href="conceitos.html">Conceitos Fundamentais e HTML</a></li>
-        <li><a href="imagens.html">Imagens e Listas</a></li>
-
-        <li><a href="hyperlinks.html">Hyperlinks</a></li>
-        <li><a href="versionamento.html">Softwares de Versionamento</a></li>
-        <li><a href="branches.html">Branches e Hospedagens</a></li>
-        <li><a href="tags.html">Tags Especiais</a></li>
-
-        <li><a href="multimídias.html">Multimídias</a></li>
-    </ol>
-
-    
-
     <h1>Tags Especiais</h1>
         <h2>Tag <em>&lttable&gt</em></h2>
             <p>Usada para criar tabelas em um site html.</p>
@@ -178,76 +158,5 @@ Ideal para   textos grandes  e  poemas   .
                 <img src="img/teclado.jfif" alt="Teclado">
                 <figcaption>Teclado</figcaption>
             </figure>
-
-    <h1><a name="multimídias"></a>Multimídias</h1>
-        <blockquote>
-            Combinação entre diferentes forma de mídias, como: <strong>Texto, áudio, imagens, animações e vídeos</strong> na mesma apresentação.
-        </blockquote>
-        <h2>Tag <code>&ltiframe&gt</code></h2>
-            <p>Usada para incorporar outro documento no seu documento HTML.</p>
-            <h3>Sintaxe:</h3>
-                <code>&ltiframe src="URL" height="altura" width="largura" title="Título"&gt&lt/iframe&gt</code>
-            <h3>Aplicação:</h3>
-                <h4>Incorporar outro site dentro do site:</h4>
-                <iframe src="https://irati.ifpr.edu.br/" height=300 width=300></iframe>
-                <br>
-                <code>&ltiframe src="URL de um site" height="altura" width="largura" title="Título"&gt&lt/iframe&gt</code>
-
-                <h4>Incorporar aúdio no site:</h4>
-                <p>Para pesquisar música utilize o site: <a href="https://soundcloud.com/" target="_blank">https://soundcloud.com/</a>, vá em compartilhar e selecione <strong>incorporado</strong>.</p>              
-                <iframe width="300" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/818763157&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/properhustle" title="properhustle" target="_blank" style="color: #cccccc; text-decoration: none;">properhustle</a> · <a href="https://soundcloud.com/properhustle/beatles-hey-jude" title="Beatles - Hey Jude" target="_blank" style="color: #cccccc; text-decoration: none;">Beatles - Hey Jude</a></div>
-                <br>
-                <code>&ltiframe src="URL da música no SoundCloud" height="altura" width="largura" title="Título"&gt&lt/iframe&gt</code>
-
-                <h4>Incorporar vídeos ao site:</h4>
-                <p>OBS: Acesse o <a href="https://www.youtube.com/" target="_blank">https://www.youtube.com/</a> vá em compartilhar na opção <strong>incorporar</strong> .</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/fYJl-7jRzuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <br>
-                <code>&ltiframe src="URL do vídeo do YouTube" height="altura" width="largura" title="Título"&gt&lt/iframe&gt</code>
-
-        <h2>Tag <code>&ltvideo&gt</code></h2>
-            <p>Usada para inserir um vídeo local, presente em sua máquina.</p>
-                
-            <video poster="midias/video/Bike.jpg" controls>
-                <source src="midias/video/_Bike.mp4" type="video/mp4">
-                <source src="midias/video/_Bike.webm" type="video/webm">
-                <source src="midias/video/_Bike.ogv" type="video/ogv">
-            </video>
-            <br>
-
-            <code>&ltvideo poster="Caminho para imagem do vídeo" controls&gt<pre>
-    &ltsource src="Caminho para o vídeo" type="Tipo de vídeo"&gt</pre></code>
-            <p>Pode-se adicionar arquivos em diferentes formatos, caso a primeira opção não funcione.</p>
-        
-        <h2>Tag <code>&ltaudio&gt</code></h2>
-            <p>Usada para inserir um aúdio armazenado localmente, pode-se utilizar a Biblioteca de Audios do Youtube, que possui músicas sem direitos autorais.</p>
-
-            <audio preload="metadata" controls>
-                <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
-                <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
-                <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
-            </audio>
-            <br>
-
-            <code>&ltaudio preload="metadata" controls&gt<pre>
-    &ltsource src="Caminho para o audio" type="Tipo de audio"&gt</pre></code>
-
-        <h2>Tag <code>&ltpicture&gt</code></h2>
-            <p>Usada para redimensionar uma imagem de acordo com a largura da página, possibilirando acessar a página em diversos tamanhos de dispositivos, para isso são adicionados cópias da imagem em tamanho distintos.</p>
-
-            <picture>
-                <source media="(max-width:500px)" srcset="midias/img/bike_110.jpg">
-                <source media="(max-width:700px)" srcset="midias/img/bike_320.jpg">
-                <source media="(max-width:1000px)" srcset="midias/img/bike_640.jpg">
-                <img src="midias/img/bike_full.jpg" alt="Mtb Por do Sol">
-            </picture>
-            <br>
-
-            <code>&ltpicture&gt<pre>
-    &ltsource media="(max-width:largura máxima em pixels)" srcset="Caminho para a imagem pequena"&gt
-    &ltsource media="(max-width:largura máxima em pixels)" srcset="Caminho para a imagem média"&gt
-    &ltimg src="Caminho para a imagem grande" alt="Legenda"&gt
-&lt/picture&gt</pre></code>
-
 </body>
 </html>
