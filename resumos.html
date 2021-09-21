@@ -18,7 +18,7 @@
         <li><a href="imagens.html">Imagens e Listas</a></li>
 
         <li><a href="hyperlinks.html">Hyperlinks</a></li>
-        <li><a href="#versionamento">Softwares de Versionamento</a></li>
+        <li><a href="versionamento.html">Softwares de Versionamento</a></li>
         <li><a href="#branches">Branches e Hospedagens</a></li>
         <li><a href="#tags">Tags Especiais</a></li>
 
@@ -31,98 +31,7 @@
 
     
 
-    <h1><a name="versionamento"></a>Softwares de Versionamento</h1>
-        <p>Realiza o controle de versões de determinado projeto ou trabalho. Sendo ele de código ou documento, de uma pessoa ou de uma equipes de pessoas.<br>Funciona atravéz de um <strong>repositório remoto</strong>, que vai <strong>gerenciar e sincronizar</strong> tanto o histórico do <strong>repositório local</strong> como do <strong>repositório remoto</strong>.</p>
-
-        <figure>
-            <img src="img/versao.jfif" alt="Pasta de Repositório Remoto">
-            <figcaption>Pasta de Repositório Remoto</figcaption>
-        </figure>
-
-        <p>Importante para evitar desencontros e problemas no trabalho em equipe.</p>
-
-        <h2>Tipos de Versionamento</h2>
-
-            <table>
-                <tr>
-                    <th><strong>Centralizado</strong></th>
-                    <th><strong>Distribuído</strong></th>
-                </tr>
-                <tr>
-                    <td>Repositório central em um servidor com controle de versões, depende do servidor. Como exemplo a Software Subversion.</td>
-                    <td>Repositório local com controle de versão, que são atualizadas no repositório central, independe do servidor. Como exemplo a Git</td>
-                </tr>
-            </table>
-        
-        <h2>Git</h2>
-
-            <p>Sofware livre de versionamento, criado para o Kernel do Linux por Linus Torvalds em 2005.</p>
-
-            <p>Sistema de versionamento distribuído.</p>
-
-            <figure>
-                <img src="img/git.svg" alt="Git">
-                <figcaption>Git</figcaption>
-            </figure>
-
-        <h2>GitHub</h2>
-
-            <p>Plataforma de hospedagem de código-fonte e arquivos com controle de versão.</p>
-
-            <figure>
-                <img src="img/github.png" height="50%" width="50%" alt="Git">
-                <figcaption>GitHub</figcaption>
-            </figure>
-
-        <h2>Preparo do Ambiente</h2>
-            <ol type="1">
-                <li>Baixar o Git: <a href="https://git-scm.com/" target="_blank">https://git-scm.com/</a></li>
-                <li>Criar conta no GitHub: <a href="https://github.com/" target="_blank">https://github.com/</a></li>
-                <li>Bixar o GitHub Desktop: <a href="https://desktop.github.com/" target="_blank">https://desktop.github.com/</a></li>
-                <li>Abrir o VSCode: <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
-            </ol>
-            <h2>Comandos GIT</h2>
-                <dl>
-                    <dt><code>commit</code></dt>
-                        <dd>Torna permanente sua alterações do <strong>repositório local</strong>.</dd>
-                    <dt><code>push</code></dt>
-                        <dd>Envia as alterações para o servidor no <strong>repositório remoto</strong>.</dd>
-                    <dt><code>fetch</code></dt>
-                        <dd>Verifica se o repositório local está <strong>sicronizado</strong> com o servidor remoto</dd>
-                    <dt><code>pull</code></dt>
-                        <dd>Sincroniza o repositório local com o remoto <strong>atualizando</strong> as versões.</dd>
-                </dl>
-
-        <h2>Crie seu Repositório</h2>
-            <ol type="1">
-                <li>No GitHub Desktop: Crie um novo repositório (Na licença altere par <strong>MIT License</strong>, para tornar seu repositório publico ou none para deixa-lo privado).</li>
-                <li>No seu repositório: Publique o seu repositório público no <em>GitHub </em>(<kbd>Ctrl+P</kbd> --> Desmarque a opção Manter privado para manter o repositório público).</li>
-                <li>Após criar e publicar seu repositório, abra-o no Visual Studio Code (<kbd>Ctrl+Shift+A</kbd>).</li>
-                <li>Faça qualquer alteração no arquivo README e veja sua alteração no GitHub Desktop;</li>
-                <li>No canto inferior do GitHub Desktop realize o <code>commit</code>, adicionando o título no Summary.</li>
-                <li>Realize o <code>push</code> das suas alterações (<kbd>Ctrl+P</kbd>).</li>
-                <li>No menu superior pode-se realizar o <code>fetch</code> para conferir se está devidadamente alterado.</li>
-            </ol>
-        
-        <h2>Clonando Repositórios</h2>
-            
-            <ol type="1">
-                <li>No GitHub: No menu inicial, clique em <em>New</em> para criar um novo repositório.</li>
-                <li>No GitHub Desktop: Abra sua lista de repositórios, clique em <em>Add</em> e <em>Clone a repository</em> selecione o repositório que deseja clonar e pressione <em>Clone</em></li>
-            </ol>
     
-        <h2>Projetos Pré-Existentes</h2>
-
-            <ol type="1">
-                <li>No GitHub Desktop: Acesse File --> New repository (<kbd>Ctrl+N</kbd>).</li>
-                <li>Ao criar o repositório: Selecione para iniciar com o README e escolha a Licença MIT</li>
-                <li>Após copiar o conteúdo de seu projeto, realize o <code>commit</code> e publique seu repositório (<kbd>Ctrl+P</kbd> --> Desmarque a opção Manter privado para manter o repositório público)</li>
-            </ol>
-
-            <figure>
-                <img src="img/projetos_existentes.png" alt="Projetos Pré-Existentes">
-                <figcaption>Projetos Pré-Existentes</figcaption>
-            </figure>
 
     <h1><a name="branches">Branches e Hospedagem</h1>
         <h2>Branches</h2>
