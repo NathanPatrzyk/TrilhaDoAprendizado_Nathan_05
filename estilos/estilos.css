@@ -1,0 +1,12 @@
+html{
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    background-color: #34495e;
+    border: 6px solid #34495e;
+    text-shadow: 1px 1px 4px gray;
+    margin: 0 auto;
+}
