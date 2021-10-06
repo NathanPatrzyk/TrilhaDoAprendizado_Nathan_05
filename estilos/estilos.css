@@ -3,10 +3,12 @@ html{
     margin: 0 auto;
 }
 
+
 h1{
     color: white;
-    background-color: #34495e;
-    border: 6px solid #34495e;
+    background-color: #344a5f;
+    border: 6px solid #344a5f;
     text-shadow: 1px 1px 4px gray;
     margin: 0 auto;
+
 }
