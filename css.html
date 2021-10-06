@@ -9,13 +9,13 @@
     
         <title>Introdução a CSS</title>
     </head>
-    <body>
+    <body style="background-color: rgb(175, 221, 175);">
         <p><font size="14">Na Trilha do Aprendizado</font></p>
-        <h1>Introdução a CSS</h1>
+        <h1 style="color: green;background-color: darkseagreen; text-align: center;">Introdução a CSS</h1>
             <p><abbr title="Cascading Style Sheet">CSS</abbr>- Cascading Style Sheet</p>
-            <p>O HTML apenas mostra o conteúdo, adicionando o CSS é possivel realizar a estilização de conteúdo de documentos. Definindo fontes, cores e espaçamento</p>
-            <h2>Sintaxe</h2>
-                <pre><code>seletor{
+            <p>O HTML apenas mostra o conteúdo, adicionando o CSS é possivel realizar a estilização de conteúdo de documentos. Definindo fontes, cores e espaçamento.</p>
+            <h2 style="color: darkgreen;">Sintaxe</h2>
+                <pre style="font-size: 20px;"><code>seletor{
     propriedade: valor; /*comentário*/
     propriedade-subpropriedade: valor;
 }
@@ -26,7 +26,7 @@
     text-align: center;
 }
 </code></pre>
-            <h2>Formas de Utilizar</h2>
+            <h2 style="color:darkgreen">Formas de Utilizar</h2>
                 <table>
                     <tr>
                         <th>Inline</th>
@@ -44,7 +44,22 @@
                         <td>Afetam todos os documentos linkados ao CSS.</td>
                     </tr>
                 </table>
-
-    
+            <h2 style="color: darkgreen">Passo a Passo</h2>
+                <ol type="1">
+                    <li>Abra seu projeto no VisualStudio.</li>
+                    <li>Crie uma branch secundária.</li>
+                    <li>Crie um arquivo <strong>.css</strong>.</li>
+                    <li>Acionar conteúdo e envolver com tags html.</li>
+                </ol>
+                <h3 style="color:seagreen">Passo a Passo: Inline</h3>
+                <ol type="1">
+                    <li>Selecione uma tag HTML.</li>
+                    <li>Dentro da tag escreva: <code>&lth1 style="color: green;"&gtTexto&lt/h1&gt</code>.</li>
+                    <li>Outras tags: <code>&lth1 style="background-color: green;"&gtTexto&lt/h1&gt</code>, <code>&lth1 style="font-size: 20px;"&gtTexto&lt/h1&gt</code></li>
+                </ol>
+                <h3 style="color:seagreen">Passo a Passo: Incorporado</h3>
+                <ol type="1">
+                    <li>Faça da mesma maneira, mas na tag <code>&ltbody&gt</code>.</li>
+                </ol>
 </body>
 </html>
