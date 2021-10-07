@@ -1,12 +1,19 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #E0EAF5;;
+    background-color: #E0EAF5;
 }
 
 h1{
-    background-color: #FF8E2B;;
+    background-color: #FF8E2B;
     color:#0d2137;
     text-align: center;
+}
+
+a{
+    color:#0d2137;
+}
+a:hover{
+    color: #2e77ae;
 }
 
 h2{
@@ -14,5 +21,10 @@ h2{
 }
 
 h3{
-    color: #2e77ae
+    color: #2e77ae;
+}
+
+ol{
+    color: #0d2137;
+    background-color: lightgray;
 }
