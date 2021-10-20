@@ -21,6 +21,14 @@ h2{
     color: #0d2137;
 }
 
+h2#principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #FF8E2B;
+    background-color: #0d2137;
+    border: 2px solid #b8b8b8;
+}
+
 h3{
     color: #2e77ae;
 }
@@ -37,20 +45,49 @@ ol{
     text-align:center;
 }
 
+span{
+    font-weight: bold;
+}
+
 div{
     background-color: #0d2137;
     color:#E0EAF5;
     margin: 10px;
 }
 
-span{
-    font-weight: bold;
+div.agrupamento{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#0d2137ee;
+    background-color: white;
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 10px;
 }
 
-h2#principal{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: #FF8E2B;
+.exemplo1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #0d2137;
-    border: 2px solid #b8b8b8;
+    border: 1px solid #FF8E2B;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+}
+
+.exemplo2{
+    font-family: fantasy;
+    background-color: #FF8E2B;
+    border: 1px solid #ff8e2b9c;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.personalizado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color:#0d2137;
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 10px;
 }
