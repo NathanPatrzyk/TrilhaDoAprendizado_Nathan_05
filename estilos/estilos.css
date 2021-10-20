@@ -36,3 +36,21 @@ ol{
     font-size: 50px;
     text-align:center;
 }
+
+div{
+    background-color: #0d2137;
+    color:#E0EAF5;
+    margin: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+h2#principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #FF8E2B;
+    background-color: #0d2137;
+    border: 2px solid #b8b8b8;
+}
