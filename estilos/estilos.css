@@ -58,8 +58,6 @@ span{
 }
 
 div{
-    background-color: #0d2137;
-    color:#E0EAF5;
     margin: 10px;
 }
 
@@ -70,8 +68,8 @@ div.agrupamento{
     color:#0d2137ee;
     background-color: white;
     border: 2px solid gray;
-    margin: 20px;
-    padding: 10px;
+    margin: 30px;
+    padding: 30px;
 }
 
 .personalizado:hover{
@@ -82,6 +80,7 @@ div.agrupamento{
 .exemplo1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #0d2137;
+    color: #FF8E2B;
     border: 1px solid #FF8E2B;
     padding: 10px;
     width: 80px;
@@ -103,8 +102,8 @@ div.agrupamento{
     background-color: white;
     color:#0d2137;
     border: 2px solid gray;
-    margin: 10px;
-    padding: 10px;
+    margin: 30px;
+    padding: 30px;
 }
 
 .listagem{
@@ -127,4 +126,27 @@ div.agrupamento{
     background-color: white;
     border: 2px solid #FF8E2B;
     font-weight: bold;
+}
+
+.pseudodef{
+    background-color: #FF8E2B;
+    padding: 10px;
+    border: 10px;
+}
+.pseudodef > div{
+    display: none;
+    
+}
+.pseudodef:hover > div{
+    display: block;
+}
+
+.seletores > strong::selection{
+    color: #FF8E2B;
+    background-color: #0d2137;
+}
+
+.agrupamento > p::first-letter{
+    font-size: xx-large;
+    color:#0d2137;
 }
