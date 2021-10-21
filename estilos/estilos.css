@@ -1,12 +1,25 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #E0EAF5;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
 }
 
 h1{
     background-color: #FF8E2B;
     color:#0d2137;
     text-align: center;
+    padding: 16px;
+    border: 16px;
+}
+
+h2{
+    background-color: #0d2137;
+    color: #FF8E2B;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 0%;
 }
 
 a{
@@ -25,9 +38,7 @@ a:hover{
     color: #2e77ae;
 }
 
-h2{
-    color: #0d2137;
-}
+
 
 h2#principal{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -58,7 +69,13 @@ span{
 }
 
 div{
-    margin: 10px;
+    margin: 30px;
+}
+
+div.text{
+    background-color: #e0eaf5;
+    margin: 0px;
+    padding: 30px;
 }
 
 
