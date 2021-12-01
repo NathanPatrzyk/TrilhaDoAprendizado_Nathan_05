@@ -13,3 +13,49 @@ header{
     border-radius: 5px;
     margin-top: 10px;
 }
+
+.logo img{
+    width: 45%;
+    padding-top: 50px;
+}
+
+.navegacao{
+    /*AJUSTA O TEXTO NO BOX E ESCONDE BARRAS DE ROLAGEM:*/
+    overflow: hidden;
+}
+.navegacao a{
+    float: right;
+    display: block;
+    color: rgb(173,173,173);
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 10px;
+}
+.navegacao a:hover{
+    color: red;
+}
+
+.conteudo{
+    float: left;
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    color: #1f1f1f;
+    width: 30%;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08101a98;
+}
+@media screen and (max-width:800px){
+    .principal, .conteudo{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.rodape{
+    color: gainsboro;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
