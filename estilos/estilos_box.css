@@ -12,6 +12,8 @@ body{
     padding: 20px 20px 20px 20px;
 
     /*Em cima --> Lado Direito --> Embaixo --> Lado Esquerdo*/
+
+    padding-bottom: 100px;
 }
 
 
@@ -155,4 +157,55 @@ span{
     justify-content: center;
     align-items: center;
     z-index: 2;
+}
+
+code{
+    padding: 2px 3px 2px 3px;
+    font-size: 16px;
+    background-color: #FF8E2B;
+    color: white;
+}
+
+h3{
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+img{
+    max-width: 300px;
+    padding: 0px 10px 10px 10px;
+}
+
+.right img{
+    float: right;
+    margin-right: 100px;
+}
+
+.right{
+    margin: 0px 20px 140px 20px;
+    text-align: right;
+}
+
+.left img{
+    float: left;
+    margin-left: 100px;
+}
+
+.left{
+    margin: 0px 100px 0px 20px;
+    text-align: left;
+}
+
+.espaço{
+    margin-top: 180px;
+}
+
+.none img{
+    float: none;
+    margin-left: 70px;
+}
+
+.none{
+    margin: 0px 50px 0px 50px;
 }
