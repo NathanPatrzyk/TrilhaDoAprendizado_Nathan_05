@@ -16,14 +16,16 @@ body{
 
 
 h1{
+    text-align: center;
     background-color: #FF8E2B;
-    width: fit-content;
+    
+    width: 500px;
 
     margin: 50px 50px 30px 30px;
 
-    border: 1px solid gray;
+    border-bottom: 5px solid #0d2137;
 
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 p{
@@ -41,6 +43,13 @@ span{
     padding: 1px 3px 1px 3px;
 }
 
+.inline-block{
+    margin-bottom: 40px;
+}
+
+.box{
+    margin: 40px 20px 20px 20px;
+}
 
 .box1{
     position: static;
@@ -49,6 +58,8 @@ span{
 
     width: 400px;
     height: 50px;
+
+    padding: 20px 10px 10px 10px;
 }
 
 .box2{
@@ -59,9 +70,11 @@ span{
     width: 400px;
     height: 50px;
 
-    bottom: 50px;
+    bottom: 80px;
     left: 450px;
     /*Apartir de onde está posicionada, quando desejo somar em relação a sua posição.*/
+
+    padding: 20px 10px 10px 10px;
 }
 
 @media screen and (max-width:1000px){
@@ -71,6 +84,8 @@ span{
         height: 50px;
 
         margin-top: 20px;
+
+        padding: 20px 10px 10px 10px;
     }
 }
 
@@ -83,5 +98,35 @@ span{
     height: 50px;
 
     top: 920px;
-    left: 540px;
+    left: 560px;
+
+    padding: 20px 10px 10px 10px;
+}
+
+.box4{
+    position: fixed;
+
+    background-color: #FF8E2B;
+
+    width: 400px;
+    height: 50px;
+
+    right: 0px;
+    bottom: 0px;
+
+    padding: 20px 10px 10px 10px;
+}
+
+.box5{
+    position: sticky;
+
+    background-color: #FF8E2B;
+
+    width: 400px;
+    height: 50px;
+
+    top: 400px;
+    left: 950px;
+
+    padding: 20px 10px 10px 10px;
 }
