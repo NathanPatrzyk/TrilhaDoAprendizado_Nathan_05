@@ -5,174 +5,194 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="estilos/estilos.css" rel="stylesheet">
+    <link href="estilos/estilos_atualizado.css" rel="stylesheet">
 
     <title>Tags Especiais</title>
 </head>
 <body>
-    <p id="title">Na Trilha do Aprendizado</p>
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="img/logo.png"  alt="logo">
+            </picture>
+        </div>
 
-    <h1>Tags Especiais</h1>
-        <h2>Tag <em>&lttable&gt</em></h2>
-            <div class="text">
-                <p>Usada para criar tabelas em um site html.</p>
-                <p>&lttr&gt: Define uma linha.</p>
-                <p>&ltth&gt: Define o cabeçalho.</p>
-                <p>&lttd&gt: Define o conteúdo de uma célula da tabela.</p>
-                <h3>Exemplo de tabela:</h3>
-                    <table>
-                        <tr>
-                            <th>Nome</th>
-                            <th>Sobrenome</th>
-                        </tr>
-                        <tr>
-                            <td>João</td>
-                            <td>Santos</td>
-                        </tr>
-                        <tr>
-                            <td>Maria</td>
-                            <td>Aparecida</td>
-                        </tr>
-                    </table>
+        <nav>
+            <div class="navegacao"> 
+                <a href="index.html">Home</a>
+                <a href="resumos.html">Conteúdo</a>
+                <a href="sobre.html">Sobre</a>
             </div>
+        </nav>
+    </header>
 
-        <h2>Tag <em>&ltdel&gt</em></h2>
-            <div class="text">
-                <p>Usada para mostrar elementos "deletados".</p>
-                <p>OBS: Estes elementos apareceram riscados no navegador.</p>
-                <h3>Exemplo de elemento deletado:</h3>
-                    <p>O limão é <del>laranja</del>.</p>
-            </div>
-                
-        <h2>Tag <em>&ltins&gt</em></h2>
-            <div class="text">
-                <p>Usada para mostrar elementos "inseridos".</p>
-                <p>OBS: Estes elementos serão mostrados sublinhados.</p>
-                <h3>Exemplo de elemento inserido:</h3>
-                    <p>O limão é <del>laranja</del> <ins>verde</ins></p>
-            </div>
-
-        <h2>Tag <em>&ltsub&gt</em></h2>
-            <div class="text">
-                <p>Para escrever palavras subscritas, ou seja, meia linha abaixo do texto normal, pode aparecer em uma fonte menor.</p>
-                <h3>Exemplos de elementos subscritos:</h3>
-                    <p>H<sub>2</sub>O</p>
-                    <p>CH<sub>4</sub></p>
-                <figure>
-                    <img src="img/ch4.png" alt="Metano - CH4" width="10%" height="10%">
-                    <figcaption>Metano - CH4</figcaption>
-                </figure>
-            </div>
-
-        <h2>Tag <em>&ltsup&gt</em></h2>
-            <div class="text">
-                <p>Para escrever palavras sobrescritas, ou seja, meia linha acima, também pode apresentar uma fonte menor.</p>
-                <h3>Exemplos de elementos sobrescritos:</h3>
-                    <p>3<sup>2</sup> = 9</p>
-                    <p>2<sup>3</sup> = 8</p>
-            </div>
-
-        <h2>Tag <em>&ltblockquote&gt</em></h2>
-            <div class="text">
-                <p>Sua tradução literal é 'bloco de citação'.</object></p>
-                <p>É usado para realizar alguma citação em um site.</p>
-                <p>Normalmente colocado em um recuo do texto principal.</p>
-                <h3>Exemplo de bloco de citação:</h3>
-                    <blockquote>Ser ou não ser, eis a questão, será mais nobre
-                        Em nosso espírito sofrer pedras e setas
-                        Com que a Fortuna, enfurecida, nos alveja,
-                        Ou insurgir-nos contra um mar de provocações
-                        E em luta pôr-lhes fim? Morrer… dormir: não mais.
-                        - William Shakespeare.
-                    </blockquote>
-            </div>
-            
-        <h2>Tag <em>&ltq&gt</em></h2>
-            <div class="text">
-                <p>Espécie de bloco de citação curto.</p>
-                <p>Ao invés de sofrer um recuo, a frase aparece entre aspas.</p>
-                <h3>Exemplo de citação curta:</h3>
-                    <p>William Shakespeare:
-                    <q>Ser ou não ser, eis a questão</q>.</p>
-            </div>
-
-        <h2>Tag <em>&ltabbr&gt</em></h2>
-            <div class="text">
-                <p>Para escrever uma abreviação e mostrar o seu nome completo.</p>
-                <p>Além da tag propriamente, o elemento title pode ser utilização para descrever o 'título' completo da abreviação.</p>
-                <p>A abreviação aparece pontilhada, como no exemplo.</p>
-                <h3>Exemplo de como utilizar uma abreviação:</h3>
-                    <p><abbr title="Instituto Federal do Paraná">IFPR</abbr> - Campus Irati.</p>
-            </div>
-
-        <h2>Tag <em>&ltaddress&gt</em></h2>
-            <div class="text">
-                <p>Usada para mostrar informações do contato de uma ator ou proprietário.</p>
-                <p>Como endereço, telefone, email ou rede social.</p>
-                <p>Mostrado em <em>itálico</em> e possui uma quebra de linha antes e depois.</p>
-                <h3>Exemplo de utilização:</h3>
-                    <address>
-                        Escrito por: Carlos Santos. <br>
-                        Email: <a href="mailto:carlos@email">carlos@email</a>. <br>
-                        Endereço: Rua Ana da Luz, 122.
-                    </address>
-                <figure>
-                    <img src="img/endereço.png" alt="Endereço" width="10%" height="10%">
-                    <figcaption>Endereço</figcaption>
-                </figure>
-            </div>
-
-        <h2>Tag <em>&ltcite&gt</em></h2>
-            <div class="text">
-                <p>Usado para citar uma obra, livro, artigo ou poema, entre outros.</p>
-                <p>Formatado em itálico.</p>
-                    <p>OBS: O nome do ator não é uma citação.</p>
-                <h3>Exemplo de citação:</h3>
-                    <p><cite>Harry Potter e a Pedra Filosofal</cite> por J. K. Rowling.</p>
-            </div>
-
-        <h2>Tag <em>&ltbdo&gt</em></h2>
-            <div class="text">
-                <p>Significa substituição bidirecional.</p>
-                <p>Ou seja é usado para "inverter" o texto.</p>
-                <h3>Exemplo de utilização:</h3>
-                    <bdo dir="ltr">Olá mundo.</bdo> <br>
-                    <bdo dir="rtl">Olá mundo.</bdo>
-            </div>
+    <main>
+        <h1>Tags Especiais</h1>
+            <h2>Tag <em>&lttable&gt</em></h2>
+                <div class="text">
+                    <p>Usada para criar tabelas em um site html.</p>
+                    <p>&lttr&gt: Define uma linha.</p>
+                    <p>&ltth&gt: Define o cabeçalho.</p>
+                    <p>&lttd&gt: Define o conteúdo de uma célula da tabela.</p>
+                    <h3>Exemplo de tabela:</h3>
+                        <table>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Sobrenome</th>
+                            </tr>
+                            <tr>
+                                <td>João</td>
+                                <td>Santos</td>
+                            </tr>
+                            <tr>
+                                <td>Maria</td>
+                                <td>Aparecida</td>
+                            </tr>
+                        </table>
+                </div>
+            <h2>Tag <em>&ltdel&gt</em></h2>
+                <div class="text">
+                    <p>Usada para mostrar elementos "deletados".</p>
+                    <p>OBS: Estes elementos apareceram riscados no navegador.</p>
+                    <h3>Exemplo de elemento deletado:</h3>
+                        <p>O limão é <del>laranja</del>.</p>
+                </div>
         
-        <h2>Tag <em>&ltcode&gt</em></h2>
-            <div class="text">
-                <p>Usado para utilizar um texto com a fonte de um código de computador.</p>
-                <h3>Exemplo de código:</h3>
-                    <p>Antes:</p>
-                    <p>if(){}</p>
-                    <p>Depois:</p>
-                    <p><code>if(){}</code></p>
-            </div>
+            <h2>Tag <em>&ltins&gt</em></h2>
+                <div class="text">
+                    <p>Usada para mostrar elementos "inseridos".</p>
+                    <p>OBS: Estes elementos serão mostrados sublinhados.</p>
+                    <h3>Exemplo de elemento inserido:</h3>
+                        <p>O limão é <del>laranja</del> <ins>verde</ins></p>
+                </div>
+            <h2>Tag <em>&ltsub&gt</em></h2>
+                <div class="text">
+                    <p>Para escrever palavras subscritas, ou seja, meia linha abaixo do texto normal, pode aparecer em uma fonte menor.</p>
+                    <h3>Exemplos de elementos subscritos:</h3>
+                        <p>H<sub>2</sub>O</p>
+                        <p>CH<sub>4</sub></p>
+                    <figure>
+                        <img src="img/ch4.png" alt="Metano - CH4" width="10%" height="10%">
+                        <figcaption>Metano - CH4</figcaption>
+                    </figure>
+                </div>
+            <h2>Tag <em>&ltsup&gt</em></h2>
+                <div class="text">
+                    <p>Para escrever palavras sobrescritas, ou seja, meia linha acima, também pode apresentar uma fonte menor.</p>
+                    <h3>Exemplos de elementos sobrescritos:</h3>
+                        <p>3<sup>2</sup> = 9</p>
+                        <p>2<sup>3</sup> = 8</p>
+                </div>
+            <h2>Tag <em>&ltblockquote&gt</em></h2>
+                <div class="text">
+                    <p>Sua tradução literal é 'bloco de citação'.</object></p>
+                    <p>É usado para realizar alguma citação em um site.</p>
+                    <p>Normalmente colocado em um recuo do texto principal.</p>
+                    <h3>Exemplo de bloco de citação:</h3>
+                        <blockquote>Ser ou não ser, eis a questão, será mais nobre
+                            Em nosso espírito sofrer pedras e setas
+                            Com que a Fortuna, enfurecida, nos alveja,
+                            Ou insurgir-nos contra um mar de provocações
+                            E em luta pôr-lhes fim? Morrer… dormir: não mais.
+                            - William Shakespeare.
+                        </blockquote>
+                </div>
+        
+            <h2>Tag <em>&ltq&gt</em></h2>
+                <div class="text">
+                    <p>Espécie de bloco de citação curto.</p>
+                    <p>Ao invés de sofrer um recuo, a frase aparece entre aspas.</p>
+                    <h3>Exemplo de citação curta:</h3>
+                        <p>William Shakespeare:
+                        <q>Ser ou não ser, eis a questão</q>.</p>
+                </div>
+            <h2>Tag <em>&ltabbr&gt</em></h2>
+                <div class="text">
+                    <p>Para escrever uma abreviação e mostrar o seu nome completo.</p>
+                    <p>Além da tag propriamente, o elemento title pode ser utilização para descrever o 'título' completo da abreviação.</p>
+                    <p>A abreviação aparece pontilhada, como no exemplo.</p>
+                    <h3>Exemplo de como utilizar uma abreviação:</h3>
+                        <p><abbr title="Instituto Federal do Paraná">IFPR</abbr> - Campus Irati.</p>
+                </div>
+            <h2>Tag <em>&ltaddress&gt</em></h2>
+                <div class="text">
+                    <p>Usada para mostrar informações do contato de uma ator ou proprietário.</p>
+                    <p>Como endereço, telefone, email ou rede social.</p>
+                    <p>Mostrado em <em>itálico</em> e possui uma quebra de linha antes e depois.</p>
+                    <h3>Exemplo de utilização:</h3>
+                        <address>
+                            Escrito por: Carlos Santos. <br>
+                            Email: <a href="mailto:carlos@email">carlos@email</a>. <br>
+                            Endereço: Rua Ana da Luz, 122.
+                        </address>
+                    <figure>
+                        <img src="img/endereço.png" alt="Endereço" width="10%" height="10%">
+                        <figcaption>Endereço</figcaption>
+                    </figure>
+                </div>
+            <h2>Tag <em>&ltcite&gt</em></h2>
+                <div class="text">
+                    <p>Usado para citar uma obra, livro, artigo ou poema, entre outros.</p>
+                    <p>Formatado em itálico.</p>
+                        <p>OBS: O nome do ator não é uma citação.</p>
+                    <h3>Exemplo de citação:</h3>
+                        <p><cite>Harry Potter e a Pedra Filosofal</cite> por J. K. Rowling.</p>
+                </div>
+            <h2>Tag <em>&ltbdo&gt</em></h2>
+                <div class="text">
+                    <p>Significa substituição bidirecional.</p>
+                    <p>Ou seja é usado para "inverter" o texto.</p>
+                    <h3>Exemplo de utilização:</h3>
+                        <bdo dir="ltr">Olá mundo.</bdo> <br>
+                        <bdo dir="rtl">Olá mundo.</bdo>
+                </div>
+        
+            <h2>Tag <em>&ltcode&gt</em></h2>
+                <div class="text">
+                    <p>Usado para utilizar um texto com a fonte de um código de computador.</p>
+                    <h3>Exemplo de código:</h3>
+                        <p>Antes:</p>
+                        <p>if(){}</p>
+                        <p>Depois:</p>
+                        <p><code>if(){}</code></p>
+                </div>
+            <h2>Tag <em>&ltpre&gt</em></h2>
+                <div class="text">
+                    <p>Realiza a pré-formatação.</p>
+                    <p>Utiliza exatamente a mesma formatação do documento HTML, respeitando cada espaço e quebra de linha.</p>
+                    <p>É exibido com uma fonte de largura fixa.</p>
+                    <h3>Exemplo de pré-formatação:</h3>
+                        <pre>   Olá mundo
+                        Esse é um    texto   pré-formatado
+                    Ideal para   textos grandes  e  poemas   .
+                        </pre>
+                </div>
+            <h2>Tag <em>&ltkbd&gt</em></h2>
+                <div class="text">
+                    <p>Em inglês <abbr title="keyboard">kbd</abbr> é a sigla para keyboard (teclado).</p>
+                    <p>Usado para representar atalhos e "entradas" de teclado.</p>
+                    <h3>Exemplo de atalho:</h3>
+                        <p><kbd>Ctrl + C</kbd></p>
+                        <p><kbd>Ctrl + V</kbd></p>
+                    <figure>
+                        <img src="img/teclado.jfif" alt="Teclado">
+                        <figcaption>Teclado</figcaption>
+                    </figure>
+                </div>
+    </main>
 
-        <h2>Tag <em>&ltpre&gt</em></h2>
-            <div class="text">
-                <p>Realiza a pré-formatação.</p>
-                <p>Utiliza exatamente a mesma formatação do documento HTML, respeitando cada espaço e quebra de linha.</p>
-                <p>É exibido com uma fonte de largura fixa.</p>
-                <h3>Exemplo de pré-formatação:</h3>
-                    <pre>   Olá mundo
-                    Esse é um    texto   pré-formatado
-                Ideal para   textos grandes  e  poemas   .
-                    </pre>
-            </div>
-
-        <h2>Tag <em>&ltkbd&gt</em></h2>
-            <div class="text">
-                <p>Em inglês <abbr title="keyboard">kbd</abbr> é a sigla para keyboard (teclado).</p>
-                <p>Usado para representar atalhos e "entradas" de teclado.</p>
-                <h3>Exemplo de atalho:</h3>
-                    <p><kbd>Ctrl + C</kbd></p>
-                    <p><kbd>Ctrl + V</kbd></p>
-                <figure>
-                    <img src="img/teclado.jfif" alt="Teclado">
-                    <figcaption>Teclado</figcaption>
-                </figure>
-            </div>
+    <footer>
+        <p>
+            <strong>NATHAN WILLIAN PATRZYK - Desenvolvedor</strong>
+        </p>
+        <p>
+            Email: 
+            <a href="mailto:nathanpatrzyk11@gmail.com">nathanpatrzyk11@gmail.com</a>
+        </p>
+        <p>
+            GitHub: 
+            <a href="https://github.com/NathanPatrzyk">https://github.com/NathanPatrzyk</a>
+        </p>
+    </footer>
 </body>
 </html>

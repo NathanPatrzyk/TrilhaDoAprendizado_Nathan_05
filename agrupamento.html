@@ -5,62 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <link href="estilos/estilos_atualizado.css" rel="stylesheet">
 
     <title>Agrupamento de Elementos e Seletores Personalizados</title>
 </head>
 <body>
-    <p id="title">Na Trilha do Aprendizado</p>
-    <h1>Agrupamento de Elementos e Seletores Personalizados</h1>
-        <h2 id="principal">Elementos block-level, inline e Seletores Personalizados</h2>
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="img/logo.png"  alt="logo">
+            </picture>
+        </div>
 
-            <div class="agrupamento">
-                <h3>Agrupamento de elementos</h3>
-                    <p>Os elementos <code>&ltdiv&gt</code> e <code>&ltspan&gt</code> são usados para agrupar e estruturar um documento e são frequentemente usados em conjunto com os atributos class e id.</p>
+        <nav>
+            <div class="navegacao"> 
+                <a href="index.html">Home</a>
+                <a href="resumos.html">Conteúdo</a>
+                <a href="sobre.html">Sobre</a>
             </div>
+        </nav>
+    </header>
     
-            <div class="agrupamento">
-                <h3>Elementos Block-level</h3>
-                    <p>
-                        O elemento <code>&ltdiv&gt</code>  é um elemento block-level. Tem a função de agrupar elementos html, definindo blocos de contéudo sempre iniciando uma nova linha e ocupando toda a linha.
-                        Exemplo:
-                    </p>
-                    <div class="exemplo1">Bloco 1</div>
-                    <div class="exemplo2">Bloco 2</div>
-            </div>
-                    
-            <div class="agrupamento">
-                <h3>Elementos Inline</h3>
-                    <p>O elemento <code>&ltspan&gt</code> é um elemento inline. É um <span>elemento neutro</span> embutidos que marcam um bloco dentro de uma mesma linha ou parágrafo. Pode ser usado pelo CSS para estilização de partes específicas do conteúdo do documento HTML</p>
-            </div>
-    
-            <div class="personalizado">
-                <h3>Seletores Personalizados</h3>
-
-                    <p>Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo classe e o seletor do tipo id</p>
-
-                    <p class="seletores"><strong class=seletores>Seletor do tipo id:</strong></p>  
-                    
-                    <p>O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. Cada id é única. O seletor de id é representado por “#”.</p>
-
-                    <p class=seletores><strong class=seletores>Seletor do tipo classe:</strong></p>
-                    
-                    <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.O seletor de classe é representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class. Para casos em que haja necessidade de mais de um elemento com a mesma identificação usamos o atributo class.</p>
-
-                    <div class=pseudodef>
-                        <p class=seletores><strong class=seletores>Pseudo-Classes:</strong></p>  
-                            
-                        <p>Usada para definir um estado especial de um elemento. O seletor de classe é representado por dois pontos, “:”. Estão relacionados a um elemento ou uma classe.</p>
-                        <div class=listagem>
-                            <a class=sem-sublinhado href="https://www.w3schools.com/cssref/sel_hover.asp"><div class=pseudo>:hover</div></a>
-                            <a class=sem-sublinhado href="https://www.w3schools.com/cssref/sel_active.asp"><div class=pseudo>:active</div></a>
-                            <a class=sem-sublinhado href="https://www.w3schools.com/cssref/sel_visited.asp"><div class=pseudo>:visited</div></a>
-                        </div>
+    <main>
+        <h1>Agrupamento de Elementos e Seletores Personalizados</h1>
+            <h2 id="principal">Elementos block-level, inline e Seletores Personalizados</h2>
+                <div class="text">
+                    <div class="agrupamento">
+                        <h3>Agrupamento de elementos</h3>
+                            <p>Os elementos <code>&ltdiv&gt</code> e <code>&ltspan&gt</code> são usados para agrupar e estruturar um documento e são frequentemente usados em conjunto com os atributos class e id.</p>
                     </div>
+                    <div class="agrupamento">
+                        <h3>Elementos Block-level</h3>
+                            <p>
+                                O elemento <code>&ltdiv&gt</code>  é um elemento block-level. Tem a função de agrupar elementos html, definindo blocos de contéudo sempre iniciando uma nova linha e ocupando toda a linha.
+                                Exemplo:
+                            </p>
+                            <div class="exemplo1">Bloco 1</div>
+                            <div class="exemplo2">Bloco 2</div>
+                    </div>
+                    <div class="agrupamento">
+                        <h3>Elementos Inline</h3>
+                            <p>O elemento <code>&ltspan&gt</code> é um elemento inline. É um <span>elemento neutro</span> embutidos que marcam um bloco dentro de uma mesma linha ou parágrafo. Pode ser usado pelo CSS para estilização de partes específicas do conteúdo do documento HTML</p>
+                    </div>
+                    <div class="personalizado">
+                        <h3>Seletores Personalizados</h3>
+                            <p>Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo classe e o seletor do tipo id</p>
+                            <p class="seletores"><strong class=seletores>Seletor do tipo id:</strong></p>
+                            <p>O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. Cada id é única. O seletor de id é representado por “#”.</p>
+                            <p class=seletores><strong class=seletores>Seletor do tipo classe:</strong></p>
+                            <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.O seletor de classe é representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class. Para casos em que haja necessidade de mais de um elemento com a mesma identificação usamos o atributo class.</p>
+                            <div class=pseudodef>
+                                <p class=seletores><strong class=seletores>Pseudo-Classes:</strong></p>
+                                <p>Usada para definir um estado especial de um elemento. O seletor de classe é representado por dois pontos, “:”. Estão relacionados a um elemento ou uma classe.</p>
+                                <div class=listagem>
+                                    <a class=sem-sublinhado href="https://www.w3schools.com/cssref/sel_hover.asp"><div class=pseudo>:hover</div></a>
+                                    <a class=sem-sublinhado href="https://www.w3schools.com/cssref/sel_active.asp"><div class=pseudo>:active</div></a>
+                                    <a class=sem-sublinhado href="https://www.w3schools.com/cssref/sel_visited.asp"><div class=pseudo>:visited</div></a>
+                                </div>
+                            </div>
+                            <p class=seletores><strong class=seletores>Pseudo-Elementos:</strong></p>
+                            <p>Usado para estilizar partes específicas de um elemento.O seletor de classe é representado por dois pontos seguido de dois pontos, “::”</p>
+                    </div>
+                </div>
+    </main>
 
-                    <p class=seletores><strong class=seletores>Pseudo-Elementos:</strong></p>
-                    
-                    <p>Usado para estilizar partes específicas de um elemento.O seletor de classe é representado por dois pontos seguido de dois pontos, “::”</p>
-            </div>
+    <footer>
+        <p>
+            <strong>NATHAN WILLIAN PATRZYK - Desenvolvedor</strong>
+        </p>
+        <p>
+            Email: 
+            <a href="mailto:nathanpatrzyk11@gmail.com">nathanpatrzyk11@gmail.com</a>
+        </p>
+        <p>
+            GitHub: 
+            <a href="https://github.com/NathanPatrzyk">https://github.com/NathanPatrzyk</a>
+        </p>
+    </footer>
 </body>
 </html>

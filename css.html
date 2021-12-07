@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="estilos/estilos.css" rel="stylesheet">
+    <link href="estilos/estilos_atualizado.css" rel="stylesheet">
     
         <title>Introdução a CSS</title>
 
@@ -31,79 +31,109 @@
     <!-- <body style="background-color: rgb(175, 221, 175); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> -->
     <body>
         
-        <p id="title">Na Trilha do Aprendizado</p>
+        <header>
+            <div class="logo">
+                <picture>
+                    <img src="img/logo.png"  alt="logo">
+                </picture>
+            </div>
+    
+            <nav>
+                <div class="navegacao"> 
+                    <a href="index.html">Home</a>
+                    <a href="resumos.html">Conteúdo</a>
+                    <a href="sobre.html">Sobre</a>
+                </div>
+            </nav>
+        </header>
         
-        <!-- <h1 style="color: green;background-color: darkseagreen; text-align: center;"> -->
-        <h1>Introdução a CSS</h1>
+        <main>
+            <!-- <h1 style="color: green;background-color: darkseagreen; text-align: center;"> -->
+            <h1>Introdução a CSS</h1>
             
-            <p><abbr title="Cascading Style Sheet">CSS</abbr>- Cascading Style Sheet</p>
-            <p>O HTML apenas mostra o conteúdo, adicionando o CSS é possivel realizar a estilização de conteúdo de documentos. Definindo fontes, cores e espaçamento.</p>
-            <!-- <h2 style="color: darkgreen;">Sintaxe</h2> -->
-            <h2>Sintaxe</h2>
-                <div class="text">
-                    <pre style="font-size: 20px;"><code>seletor{
-        propriedade: valor; /*comentário*/
-        propriedade-subpropriedade: valor;
-}
-                    </code></pre>
-                </div>
-            <h2>Exemplo</h2>
-                <div class="text">
-                    <pre><code>p{
-        color: blue;
-        text-align: center;
-                    }
-                </div>
-</code></pre>
-            <!--<h2 style="color:darkgreen">Formas de Utilizar</h2> -->
-            <h2>Formas de Utilizar</h2>
-                <div class="text">
-                    <table>
-                        <tr>
-                            <th>Inline</th>
-                            <th>Incorporado</th>
-                            <th>Externo</th>
-                        </tr>
-                        <tr>
-                            <td>São definidos dentro de cada <strong>tag</strong> HTML.</td>
-                            <td>São definidos no cabeçalho apenas dentro da tag <strong>head</strong>.</td>
-                            <td>São definidos em um <strong>arquivo externo</strong>. </td>
-                        </tr>
-                        <tr>
-                            <td>Afetam somente a tag onde foi definida.</td>
-                            <td>Afetam somente o documento em que foi definido.</td>
-                            <td>Afetam todos os documentos linkados ao CSS.</td>
-                        </tr>
-                    </table>
-                </div>
-            <!-- <h2 style="color: darkgreen">Passo a Passo</h2> -->
-            <h2>Passo a Passo</h2>
-                <div class="text">
-                    <ol type="1">
-                        <li>Abra seu projeto no VisualStudio.</li>
-                        <li>Crie uma branch secundária.</li>
-                        <li>Crie um arquivo <strong>.css</strong>.</li>
-                        <li>Acionar conteúdo e envolver com tags html.</li>
-                    </ol>
-                    <!-- <h3 style="color:seagreen">Passo a Passo: Inline</h3> -->
-                    <h3>Passo a Passo: Inline</h3>
-                    <ol type="1">
-                        <li>Selecione uma tag HTML.</li>
-                        <li>Dentro da tag escreva: <code>&lth1 style="color: green;"&gtTexto&lt/h1&gt</code>.</li>
-                        <li>Outras tags: <code>&lth1 style="background-color: green;"&gtTexto&lt/h1&gt</code>, <code>&lth1 style="font-size: 20px;"&gtTexto&lt/h1&gt</code></li>
-                    </ol>
-                    <!-- <h3 style="color:seagreen">Passo a Passo: Incorporado</h3> -->
-                    <h3>Passo a Passo: Incorporado</h3>
-                    <ol type="1">
-                        <li>Faça da mesma maneira, mas com a tag <code>&ltstyle&gtEstilização&lt/style&gt</code>, que pode ser adicionada no head.</li>
-                        <li>Outras tags: <code>&lth1 style="font-family: (nome da fonte);"&gtTexto&lt/h1&gt</code></li>
-                    </ol>
-                    <h3>Passo a Passo: Externo</h3>
-                    <ol type="1">
-                        <li>Para usar o CSS externo, você precisa adicionar o seguinte código na tag head: <code>&ltlink href="(Caminho para um documento .css)" rel="stylesheet"&gt</code></li>
-                        <li>Nesse documento você pode escrever todo o seu código CSS.</li>
-                        <li>Outras tags: <code>font-size: (Tamanho da fonte em pixels);</code></li>
-                    </ol>
-                </div>
+                <p><abbr title="Cascading Style Sheet">CSS</abbr>- Cascading Style Sheet</p>
+                <p>O HTML apenas mostra o conteúdo, adicionando o CSS é possivel realizar a estilização de conteúdo de documentos. Definindo fontes, cores e espaçamento.</p>
+                <!-- <h2 style="color: darkgreen;">Sintaxe</h2> -->
+                <h2>Sintaxe</h2>
+                    <div class="text">
+                        <pre style="font-size: 20px;"><code>seletor{
+            propriedade: valor; /*comentário*/
+            propriedade-subpropriedade: valor;
+            }
+                        </code></pre>
+                    </div>
+                <h2>Exemplo</h2>
+                    <div class="text">
+                        <pre><code>p{
+            color: blue;
+            text-align: center;
+                        }
+                    </div>
+            </code></pre>
+                <!--<h2 style="color:darkgreen">Formas de Utilizar</h2> -->
+                <h2>Formas de Utilizar</h2>
+                    <div class="text">
+                        <table>
+                            <tr>
+                                <th>Inline</th>
+                                <th>Incorporado</th>
+                                <th>Externo</th>
+                            </tr>
+                            <tr>
+                                <td>São definidos dentro de cada <strong>tag</strong> HTML.</td>
+                                <td>São definidos no cabeçalho apenas dentro da tag <strong>head</strong>.</td>
+                                <td>São definidos em um <strong>arquivo externo</strong>. </td>
+                            </tr>
+                            <tr>
+                                <td>Afetam somente a tag onde foi definida.</td>
+                                <td>Afetam somente o documento em que foi definido.</td>
+                                <td>Afetam todos os documentos linkados ao CSS.</td>
+                            </tr>
+                        </table>
+                    </div>
+                <!-- <h2 style="color: darkgreen">Passo a Passo</h2> -->
+                <h2>Passo a Passo</h2>
+                    <div class="text">
+                        <ol type="1">
+                            <li>Abra seu projeto no VisualStudio.</li>
+                            <li>Crie uma branch secundária.</li>
+                            <li>Crie um arquivo <strong>.css</strong>.</li>
+                            <li>Acionar conteúdo e envolver com tags html.</li>
+                        </ol>
+                        <!-- <h3 style="color:seagreen">Passo a Passo: Inline</h3> -->
+                        <h3>Passo a Passo: Inline</h3>
+                        <ol type="1">
+                            <li>Selecione uma tag HTML.</li>
+                            <li>Dentro da tag escreva: <code>&lth1 style="color: green;"&gtTexto&lt/h1&gt</code>.</li>
+                            <li>Outras tags: <code>&lth1 style="background-color: green;"&gtTexto&lt/h1&gt</code>, <code>&lth1 style="font-size: 20px;"&gtTexto&lt/h1&gt</code></li>
+                        </ol>
+                        <!-- <h3 style="color:seagreen">Passo a Passo: Incorporado</h3> -->
+                        <h3>Passo a Passo: Incorporado</h3>
+                        <ol type="1">
+                            <li>Faça da mesma maneira, mas com a tag <code>&ltstyle&gtEstilização&lt/style&gt</code>, que pode ser adicionada no head.</li>
+                            <li>Outras tags: <code>&lth1 style="font-family: (nome da fonte);"&gtTexto&lt/h1&gt</code></li>
+                        </ol>
+                        <h3>Passo a Passo: Externo</h3>
+                        <ol type="1">
+                            <li>Para usar o CSS externo, você precisa adicionar o seguinte código na tag head: <code>&ltlink href="(Caminho para um documento .css)" rel="stylesheet"&gt</code></li>
+                            <li>Nesse documento você pode escrever todo o seu código CSS.</li>
+                            <li>Outras tags: <code>font-size: (Tamanho da fonte em pixels);</code></li>
+                        </ol>
+                    </div>
+        </main>
+
+        <footer>
+            <p>
+                <strong>NATHAN WILLIAN PATRZYK - Desenvolvedor</strong>
+            </p>
+            <p>
+                Email: 
+                <a href="mailto:nathanpatrzyk11@gmail.com">nathanpatrzyk11@gmail.com</a>
+            </p>
+            <p>
+                GitHub: 
+                <a href="https://github.com/NathanPatrzyk">https://github.com/NathanPatrzyk</a>
+            </p>
+        </footer>
 </body>
 </html>

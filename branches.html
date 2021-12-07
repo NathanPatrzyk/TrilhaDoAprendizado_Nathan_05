@@ -5,76 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link href="estilos/estilos.css" rel="stylesheet">
+    <link href="estilos/estilos_atualizado.css" rel="stylesheet">
 
     <title>Branches e Hospedagem</title>
 </head>
 <body>
-    <p id="title">Na Trilha do Aprendizado</p>
-    <h1>Branches e Hospedagem</h1>
-        <h2>Branches</h2>
-            <div class="text">
-            
-                <p>São ramificações de um <strong>projeto de software</strong>, tendo por objetivo o desenvolvimento paralelo de:</p>
-                <ol type="1">
-                    <li>Novas funcionalidades</li>
-                    <li>Correções de erros</li>
-                    <li>Alteração de código</li>
-                </ol>
-                <h3>Tipos de branches:</h3>
-                    <ul>
-                        <li><strong>Branch Master (Main):</strong> Braço principal de um projeto em um repositório.</li>
-                        <li><strong>Branch Secundária:</strong> Braço secundário de um projeto em um repositório.</li>
-                    </ul>
-                    <figure>
-                        <img src="img/branch.png" alt="Branch">
-                        <figcaption>Branch</figcaption>
-                    </figure>
-                <h3>Passo a passo:</h3>
-                    <ul>
-                        <li>No GitHub Desktop crie um novo repositório.</li>
-                        <li>Publique o seu repositório (<kbd>Ctrl+P</kbd>).</li>
-                        <li>Abra seu repositório no Visual Studio e crie um arquivo index.html.</li>
-                        <li>Edite o arquivo index.html como desejar.</li>
-                        <li>Realize o <code>commit</code> to main.</li>
-                        <li>Até aqui você editou a branch master.</li>
-                        <li>Acesse Current Branch e crie um nova branch.</li>
-                        <li>New Branch --> Edite o nome como secundaria-01 --> Create branch.</li>
-                        <li>Publique sua branch Secundária</li>
-                        <li>Se desejar você pode editar a branch secundária.</li>
-                        <li>Crie uma segunda branch secundária.</li>
-                        <li>Faça as alterações que desejar em sua segunda branch secundária.</li>
-                    </ul>
-                    <figure>
-                        <img src="img/git_branch.png" alt="Branch no Git">
-                        <figcaption>Branch no Git</figcaption>
-                    </figure>
-                <h3>Realizando o Merge:</h3>
-                    <p>Realizar um Merge é fazer a junção de um Branch secundário em um Branch Master.</p>
-                    <ul>
-                        <li>Selecione a <strong>Branch</strong> que deseja realizar o <strong>Merge</strong> --> Menu --> Branch --> Merge into current branch (<kbd>Ctrl+Shift+M</kbd>).</li>
-                        <li>Selecione quem você deseja realizar o Merge na Branch selecionada.</li>
-                        <li>OBS: Se houver algum conflito, clique em Open on Visual Studio e selecione uma opção (Manter as duas alterações, manter a primeira alteração, manter a segunda alteração).</li>
-                        <li>Para continuar usando a <strong>Branch</strong> secundária após o <strong>Merge</strong>: Menu --> Branch --> Update to main (<kbd>Ctrl+Shift+U</kbd>)</li>
-                    </ul>
-                <h3>Criando uma Branch "Terciaria":</h3>
-                    <p>Para isso, basta criar uma Branch apartir de sua Branch Secundária.</p>
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="img/logo.png"  alt="logo">
+            </picture>
         </div>
 
-        <h2>Hospedagem</h2>
-            <div class="text">
-                <p>Serve para consolidar o trabalho realizado.</p>
-                <p>O GitHub possui a funcionalidade do GitHub Pages, que realiza a hospedagem gratuita de repositórios públicos.</p>
-                <p>Sua URL será: <em>https:/nomeusuario.github.io/repositório</em>
-                </p>
-                <h3>Passo a Passo:</h3>
-                    <ul>
-                        <li>Abra seu repositório no GitHub.</li>
-                        <li>Settings --> Pages.</li>
-                        <li>Source --> None --> Selecione o main --> Save.</li>
-                        <li>PRONTO! Basta atualizar a página (<kbd>F5</kbd>) e acessar seu site.</li>
-                    </ul>
-                    <p>Agora que você publicou o seu site, deve tomar alguns cuidados como não editar o <strong>Branch Main</strong> diretamente, sempre editar um <strong>Branch Secundario</strong>, testar e depois realizar o <strong>Merge</strong>.</p>
+        <nav>
+            <div class="navegacao"> 
+                <a href="index.html">Home</a>
+                <a href="resumos.html">Conteúdo</a>
+                <a href="sobre.html">Sobre</a>
             </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Branches e Hospedagem</h1>
+            <h2>Branches</h2>
+                <div class="text">
+        
+                    <p>São ramificações de um <strong>projeto de software</strong>, tendo por objetivo o desenvolvimento paralelo de:</p>
+                    <ol type="1">
+                        <li>Novas funcionalidades</li>
+                        <li>Correções de erros</li>
+                        <li>Alteração de código</li>
+                    </ol>
+                    <h3>Tipos de branches:</h3>
+                        <ul>
+                            <li><strong>Branch Master (Main):</strong> Braço principal de um projeto em um repositório.</li>
+                            <li><strong>Branch Secundária:</strong> Braço secundário de um projeto em um repositório.</li>
+                        </ul>
+                        <figure>
+                            <img src="img/branch.png" alt="Branch">
+                            <figcaption>Branch</figcaption>
+                        </figure>
+                    <h3>Passo a passo:</h3>
+                        <ul>
+                            <li>No GitHub Desktop crie um novo repositório.</li>
+                            <li>Publique o seu repositório (<kbd>Ctrl+P</kbd>).</li>
+                            <li>Abra seu repositório no Visual Studio e crie um arquivo index.html.</li>
+                            <li>Edite o arquivo index.html como desejar.</li>
+                            <li>Realize o <code>commit</code> to main.</li>
+                            <li>Até aqui você editou a branch master.</li>
+                            <li>Acesse Current Branch e crie um nova branch.</li>
+                            <li>New Branch --> Edite o nome como secundaria-01 --> Create branch.</li>
+                            <li>Publique sua branch Secundária</li>
+                            <li>Se desejar você pode editar a branch secundária.</li>
+                            <li>Crie uma segunda branch secundária.</li>
+                            <li>Faça as alterações que desejar em sua segunda branch secundária.</li>
+                        </ul>
+                        <figure>
+                            <img src="img/git_branch.png" alt="Branch no Git">
+                            <figcaption>Branch no Git</figcaption>
+                        </figure>
+                    <h3>Realizando o Merge:</h3>
+                        <p>Realizar um Merge é fazer a junção de um Branch secundário em um Branch Master.</p>
+                        <ul>
+                            <li>Selecione a <strong>Branch</strong> que deseja realizar o <strong>Merge</strong> --> Menu --> Branch --> Merge into current branch (<kbd>Ctrl+Shift+M</kbd>).</li>
+                            <li>Selecione quem você deseja realizar o Merge na Branch selecionada.</li>
+                            <li>OBS: Se houver algum conflito, clique em Open on Visual Studio e selecione uma opção (Manter as duas alterações, manter a primeira alteração, manter a segunda alteração).</li>
+                            <li>Para continuar usando a <strong>Branch</strong> secundária após o <strong>Merge</strong>: Menu --> Branch --> Update to main (<kbd>Ctrl+Shift+U</kbd>)</li>
+                        </ul>
+                    <h3>Criando uma Branch "Terciaria":</h3>
+                        <p>Para isso, basta criar uma Branch apartir de sua Branch Secundária.</p>
+            </div>
+            <h2>Hospedagem</h2>
+                <div class="text">
+                    <p>Serve para consolidar o trabalho realizado.</p>
+                    <p>O GitHub possui a funcionalidade do GitHub Pages, que realiza a hospedagem gratuita de repositórios públicos.</p>
+                    <p>Sua URL será: <em>https:/nomeusuario.github.io/repositório</em>
+                    </p>
+                    <h3>Passo a Passo:</h3>
+                        <ul>
+                            <li>Abra seu repositório no GitHub.</li>
+                            <li>Settings --> Pages.</li>
+                            <li>Source --> None --> Selecione o main --> Save.</li>
+                            <li>PRONTO! Basta atualizar a página (<kbd>F5</kbd>) e acessar seu site.</li>
+                        </ul>
+                        <p>Agora que você publicou o seu site, deve tomar alguns cuidados como não editar o <strong>Branch Main</strong> diretamente, sempre editar um <strong>Branch Secundario</strong>, testar e depois realizar o <strong>Merge</strong>.</p>
+                </div>
+    </main>
+
+    <footer>
+        <p>
+            <strong>NATHAN WILLIAN PATRZYK - Desenvolvedor</strong>
+        </p>
+        <p>
+            Email: 
+            <a href="mailto:nathanpatrzyk11@gmail.com">nathanpatrzyk11@gmail.com</a>
+        </p>
+        <p>
+            GitHub: 
+            <a href="https://github.com/NathanPatrzyk">https://github.com/NathanPatrzyk</a>
+        </p>
+    </footer>
 </body>
 </html>

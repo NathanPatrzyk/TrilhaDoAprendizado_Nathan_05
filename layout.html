@@ -4,28 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="/estilos/estilos_atualizado.css">
 
     <title>Layouts</title>
 </head>
 
 <body>
 
-    <p id="title">Na Trilha do Aprendizado</p>
+    <header>
+        <div class="logo">
+            <picture>
+                <img src="img/logo.png"  alt="logo">
+            </picture>
+        </div>
 
-    <h1>Layouts de Website</h1>
+        <nav>
+            <div class="navegacao"> 
+                <a href="index.html">Home</a>
+                <a href="resumos.html">Conteúdo</a>
+                <a href="sobre.html">Sobre</a>
+            </div>
+        </nav>
+    </header>
 
-        <p>Alguns layouts desenvolvidos:</p>
+    <main>
+        <h1>Layouts de Website</h1>
+            <p>Alguns layouts desenvolvidos:</p>
+            <ol type="1">
+                <li><a href="layout1.html">Layout 1</a></li>
+                <li><a href="layout2.html">Layout 2</a></li>
+                <li><a href="layout3.html">Layout 3</a></li>
+                <li><a href="layout4.html">Layout 3</a></li>
+            </ol>
+            <h2>Definição</h2>
+                <div class="text">
+                    <p>Definem a estrutura do site, separado em cabeçalho, menu, conteúdo e rodapé.</p>
+                </div>
+            <h2>Tags Semânticas</h2>
+                <div class="text">
+                    <ul>
+                        <li><code>&ltheader&gt</code>: Cabeçalho;</li>
+                        <li><code>&ltnav&gt</code>: Barra de navegação;</li>
+                        <li><code>&ltmain&gt</code>: Corpo principal de conteúdo;</li>
+                        <li><code>&ltfooter&gt</code>: Rodapé.</li>
+                    </ul>
+                    <p>OBS: A tag <code>&ltheader&gt</code> normalmente está 'dentro' da tag <code>&ltheader&gt</code>. Dentro das tags semânticas, o uso de <code>div</code>'s facilita</p>
+                </div>
+    </main>
 
-        <ol type="1">
-            <li><a href="layout1.html">Layout 1</a></li>
-            <li><a href="layout2.html">Layout 2</a></li>
-            <li><a href="layout3.html">Layout 3</a></li>
-        </ol>
-
-        <h2>Definição</h2>
-            <p>Definem a estrutura do site, separado em cabeçalho, menu, conteúdo e rodapé.</p>
-
-
+    <footer>
+        <p>
+            <strong>NATHAN WILLIAN PATRZYK - Desenvolvedor</strong>
+        </p>
+        <p>
+            Email: 
+            <a href="mailto:nathanpatrzyk11@gmail.com">nathanpatrzyk11@gmail.com</a>
+        </p>
+        <p>
+            GitHub: 
+            <a href="https://github.com/NathanPatrzyk">https://github.com/NathanPatrzyk</a>
+        </p>
+    </footer>
 </body>
 </html>

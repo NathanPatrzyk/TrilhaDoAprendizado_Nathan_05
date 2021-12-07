@@ -1,0 +1,321 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+    margin: 0 auto;
+    width: 90%;
+
+    background-color: #b6ccd5;
+}
+
+header{
+    background-color: #3BA60A;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.navegacao{
+    background-color: #7ABF5A;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navegacao a{
+    background-color: #7ABF5A;
+    color: white;
+    float: right;
+    display: block;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin: 10px;
+}
+.navegacao a:hover{
+    color: #F25C05;
+}
+
+main{
+    padding: 10px 80px 10px 80px;
+}
+
+.logo img{
+    background-color: #3BA60A;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+h1{
+    color: #048ABF;
+    background-color: #f25c05b3;
+    padding: 10px;
+    border-bottom: 5px solid #048ABF;
+}
+
+h2{
+    color: #F25C05;
+    border-bottom: 5px solid #7ABF5A;
+
+}
+
+h3{
+    color: #3BA60A;
+}
+
+.text p{
+    color: darkslategray;
+}
+
+.text{
+    padding: 40px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px darkgrey;
+}
+
+footer{
+    background-color: #F25C05;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    width: 100%;
+
+    text-align: center;
+    align-content: center;
+
+    border-radius: 10px;
+}
+
+
+
+.divisao{
+    
+    display: block;
+
+    float: right;
+
+    width: 50%;
+    height: 400px;
+
+    margin: 0;
+}
+.divisao p{
+    text-align: center;
+
+    position: relative;
+    top: 100px;
+
+    background-color: slategray;
+    color: #0d2137;
+
+}
+
+h1.conteudo{
+    margin-top: 470px;
+    
+}
+
+.html{
+    background-color: rgba(255, 166, 0);
+    transition: 5s;
+}
+
+.html:hover{
+    background-image: url(/img/saara.jpg);
+}
+
+.css{
+    float: right;
+    background-color: rgba(46, 118, 174);
+    transition: 5s;
+}
+
+.css:hover{
+    float: right;
+    background-image: url(/img/oceano.jpg);
+}
+
+.texto{
+
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+
+    position: relative;
+    top: 100px;
+}
+
+img{
+    max-width: 300px;
+}
+
+.inline-block{
+    margin-bottom: 80px;
+}
+
+.box{
+    margin: 40px 20px 20px 20px;
+}
+
+.box1{
+    position: static;
+
+    background-color: #FF8E2B;
+
+    width: 400px;
+    height: 50px;
+
+    padding: 20px 10px 10px 10px;
+}
+
+.box2{
+    position: relative;
+
+    background-color: #FF8E2B;
+
+    width: 400px;
+    height: 50px;
+
+    bottom: 80px;
+    left: 450px;
+    /*Apartir de onde está posicionada, quando desejo somar em relação a sua posição.*/
+
+    padding: 20px 10px 10px 10px;
+}
+
+@media screen and (max-width:1000px){
+    .box2{
+        position: static;
+        width: 400px;
+        height: 50px;
+
+        margin-top: 20px;
+
+        padding: 20px 10px 10px 10px;
+    }
+}
+
+.box3{
+    position: absolute;
+
+    background-color: #FF8E2B;
+
+    width: 400px;
+    height: 50px;
+
+    top: 940px;
+    left: 560px;
+
+    padding: 20px 10px 10px 10px;
+}
+
+.box4{
+    position: fixed;
+
+    background-color: #FF8E2B;
+
+    width: 400px;
+    height: 50px;
+
+    right: 0px;
+    bottom: 0px;
+
+    padding: 20px 10px 10px 10px;
+}
+
+.box5{
+    position: sticky;
+
+    background-color: #FF8E2B;
+
+    width: 400px;
+    height: 50px;
+
+    top: 400px;
+    left: 950px;
+
+    padding: 20px 10px 10px 10px;
+}
+
+.layer1{
+    position: relative;
+    background-color: darkcyan;
+    width: 80px;
+    height: 80px;
+    bottom: 0px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.layer2{
+    position: relative;
+    background-color: cadetblue;
+    width: 80px;
+    height: 80px;
+    bottom: 20px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+code{
+    padding: 2px 3px 2px 3px;
+    font-size: 16px;
+    background-color: #FF8E2B;
+    color: white;
+}
+
+h3{
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+img{
+    max-width: 300px;
+    padding: 0px 10px 10px 10px;
+}
+
+.right img{
+    float: right;
+    margin-right: 100px;
+}
+
+.right{
+    margin: 0px 20px 140px 20px;
+    text-align: right;
+}
+
+.left img{
+    float: left;
+    margin-left: 100px;
+}
+
+.left{
+    margin: 0px 100px 0px 20px;
+    text-align: left;
+}
+
+.espaço{
+    margin-top: 180px;
+}
+
+.none img{
+    float: none;
+    margin-left: 70px;
+}
+
+.none{
+    margin: 0px 50px 0px 50px;
+}
