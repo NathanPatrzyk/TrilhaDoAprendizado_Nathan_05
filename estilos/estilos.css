@@ -1,7 +1,7 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #ffffff;
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
     text-align: justify;
 }
@@ -10,8 +10,9 @@ h1{
     background-color: #FF8E2B;
     color:#0d2137;
     text-align: center;
-    padding: 16px;
+    padding: 10px;
     border: 16px;
+
 }
 
 h2{
@@ -174,4 +175,66 @@ div.agrupamento{
 .agrupamento > p::first-letter{
     font-size: xx-large;
     color:#0d2137;
+}
+
+/*MENU*/
+
+.divisao{
+    
+    display: block;
+
+    float: right;
+
+    width: 50%;
+    height: 400px;
+
+    margin: 0;
+}
+.divisao p{
+    text-align: center;
+
+    position: relative;
+    top: 100px;
+
+    background-color: slategray;
+    color: #0d2137;
+
+}
+
+h1.conteudo{
+    margin-top: 470px;
+    
+}
+
+.html{
+    background-color: rgba(255, 166, 0);
+    transition: 5s;
+}
+
+.html:hover{
+    background-image: url(/img/saara.jpg);
+}
+
+.css{
+    float: right;
+    background-color: rgba(46, 118, 174);
+    transition: 5s;
+}
+
+.css:hover{
+    float: right;
+    background-image: url(/img/oceano.jpg);
+}
+
+.texto{
+
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+
+    position: relative;
+    top: 100px;
 }
