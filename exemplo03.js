@@ -12,4 +12,4 @@ for(contador=1;contador<=max;contador++){
     alert("Loop "+regressiva+": Você está dentre de um loop de FOR, clique aqui:")
     regressiva--
 }
-document.write("<h1>Parabéns! Você venceu as estrutura de repetição FOR e o WHILE.</h1")
+document.write("<h1>Parabéns! Você venceu as estrutura de repetição FOR e o WHILE.</h1>")

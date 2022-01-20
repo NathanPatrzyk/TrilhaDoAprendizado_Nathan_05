@@ -1,4 +1,4 @@
-var multiplicador=0
+var multiplicador=1
 var contador=0
 var derrota=0
 var resposta
@@ -10,7 +10,7 @@ while(derrota==0){
 
     multiplicador++
 
-    while(derrota==0){
+    while(contador<=10){
 
         contador++
 
@@ -27,4 +27,6 @@ while(derrota==0){
             nivel++
         }
     }
+
+    contador=0
 }
