@@ -38,15 +38,15 @@ if(media<7 && media>=0){
     conceito="D"
 }
 
-else if(media<=7.9){
+else if(media<=7.9 && media>=0){
     conceito="C"
 }
 
-else if(media<=8.9){
+else if(media<=8.9 && media>=0){
     conceito="B"
 }
 
-else if(media<=10){
+else if(media<=10 && media>=0){
     conceito="A"
 }
 
