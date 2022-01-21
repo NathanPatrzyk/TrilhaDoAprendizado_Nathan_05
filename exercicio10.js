@@ -13,29 +13,27 @@ var erro = (nome+" você errou!!!")
 
 var contadorA = 0
 
-var valor = prompt("Digite um número entre "+minimo+" e "+maximo+" : ")
-
-for(contadorA=1; contadorA<4; contadorA++){
+for(contadorA=1; contadorA<=4; contadorA++){
+    
+    var valor = prompt("Digite um número entre "+minimo+" e "+maximo+" : ")
 
     if(valor == valorSecreto){
-        document.write(espaco)
-        document.write(acerto+" O número correto é 7.")
-        document.write(espaco)
-        contadorA=999
+        contadorA=10
 
+        document.write(espaco)
+        document.write("<p>"+acerto+" O número correto é 7.</p>")
+        document.write(espaco)
     }
 
     else{
         minimo++
         maximo--
-
-
         alert(erro)
-        var valor = prompt("Digite um número entre "+minimo+" e "+maximo+" : ")
+        
     }
 }
 
-if(contadorA >= 4){
+if(contadorA < 10){
     document.write(espaco)
     document.write("<p>"+erro+" O número correto é 7.</p>")
     document.write(espaco)
