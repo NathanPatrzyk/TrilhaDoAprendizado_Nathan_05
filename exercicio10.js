@@ -35,7 +35,7 @@ for(contadorA=1; contadorA<4; contadorA++){
     }
 }
 
-if(contadorA == 4){
+if(contadorA >= 4){
     document.write(espaco)
     document.write("<p>"+erro+" O número correto é 7.</p>")
     document.write(espaco)
