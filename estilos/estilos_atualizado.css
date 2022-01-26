@@ -3,21 +3,17 @@ body{
 
     
     margin: 0 auto;
-    width: 90%;
 
     background-color: #D9D9D9;
 }
 
 header{
     background-color: #3BA60A;
-    border-radius: 10px;
-    margin-top: 10px;
 }
 
 .navegacao{
     background-color: #7ABF5A;
     overflow: hidden;
-    border-radius: 10px;
 }
 .navegacao a{
     background-color: #7ABF5A;
@@ -78,14 +74,15 @@ h3{
 footer{
     background-color: #F25C05;
     color: white;
-    padding: 10px;
-    padding-left: 30px;
-    width: 100%;
+    margin: 0px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     text-align: center;
     align-content: center;
 
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 
