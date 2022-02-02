@@ -147,10 +147,6 @@ h1.conteudo{
     top: 100px;
 }
 
-img{
-    max-width: 300px;
-}
-
 .inline-block{
     margin-bottom: 80px;
 }
@@ -279,8 +275,8 @@ h3{
 
 
 img{
-    max-width: 300px;
     padding: 0px 10px 10px 10px;
+    max-height: 200px;
 }
 
 .right img{
