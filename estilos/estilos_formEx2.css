@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #fff8dc, #ffffff);
+    color: #30706f;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: large;
+    text-align: center;
+    margin: 30px;
+    padding: 32px;
+    background-color: #b51630;
+    color: #fff8dc;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+form{
+    font-size: 12px;
+    background-color: #fff8dc;
+    max-width: 35%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px #72727252;
+    padding: 16px;
+    padding-top: 32px;
+    margin: 0 auto;
+}
+
+input, textarea{
+    width: 80%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius:  5px;
+    border: 1px solid;
+    background-color: #fff;
+}
+
+label{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus{
+    box-shadow: 0px 0px 40px #72727252;
+    font-weight: bold;
+}
+
+.enviar{
+    background-color: #b51630;
+    color: #fff8dc;
+    padding: 12px 0px;
+    width: 20%;
+}
+
+.enviar:hover{
+    background-image: linear-gradient(to left, #b51630, #dd4760);
+}
+
+textarea{
+    width: 80%;
+    height: 200px;
+    line-height: 20px;
+    max-width: 80%;
+}
+
+form label{
+    margin-left: 20px;
+    font-weight: bold;
+}
