@@ -4,20 +4,20 @@ body{
     
     margin: 0 auto;
 
-    background-color: #D9D9D9;
+    background-color: #bababa;
 }
 
 header{
-    background-color: #3BA60A;
+    background-color: #03071e;
 }
 
 .navegacao{
-    background-color: #7ABF5A;
+    background-color: #6a0407;
     overflow: hidden;
 }
 .navegacao a{
-    background-color: #7ABF5A;
-    color: white;
+    background-color: #6a0407;
+    color: #c2c1c1;
     float: right;
     display: block;
     text-decoration: none;
@@ -29,7 +29,7 @@ header{
     margin: 10px;
 }
 .navegacao a:hover{
-    color: #F25C05;
+    color: #03071e;
 }
 
 main{
@@ -37,7 +37,7 @@ main{
 }
 
 .logo img{
-    background-color: #3BA60A;
+    background-color: #03071e;
     width: 30%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -45,20 +45,20 @@ main{
 }
 
 h1{
-    color: #048ABF;
-    background-color: #f25c05b3;
+    color: #d00000;
+    background-color: #03071e;
     padding: 10px;
-    border-bottom: 5px solid #048ABF;
+    border-bottom: 5px solid #d00000;
 }
 
 h2{
-    color: #F25C05;
-    border-bottom: 5px solid #7ABF5A;
+    color: #d00000;
+    border-bottom: 5px solid #03071e;
 
 }
 
 h3{
-    color: #3BA60A;
+    color: #03071e;
 }
 
 .text p{
@@ -72,7 +72,7 @@ h3{
 }
 
 footer{
-    background-color: #F25C05;
+    background-color: #370617;
     color: white;
     margin: 0px;
 
@@ -85,19 +85,23 @@ footer{
     border-radius: 0px;
 }
 
+footer a{
+    text-decoration: none;
+    color: #d00000;
+}
+
 
 
 .divisao{
     
     display: block;
 
-    float: right;
-
-    width: 50%;
+    width: 30%;
     height: 400px;
 
-    margin: 0;
+    margin: 0 auto;
 }
+
 .divisao p{
     text-align: center;
 
@@ -115,30 +119,46 @@ h1.conteudo{
 }
 
 .html{
-    background-color: rgba(255, 166, 0);
+    float: left;
+    background-color: rgb(255, 60, 0);
     transition: 5s;
 }
 
 .html:hover{
+    float: left;
     background-image: url(/img/saara.jpg);
 }
 
 .css{
-    float: right;
+    float: left;
     background-color: rgba(46, 118, 174);
     transition: 5s;
 }
 
 .css:hover{
-    float: right;
+    float: left;
     background-image: url(/img/oceano.jpg);
+}
+
+.js{
+    float: left;
+    background-color: rgba(255, 166, 0);
+    transition: 5s;
+}
+.js:hover{
+    float: left;
+    background-image: url(/img/marte.jpg);
+}
+
+.menu{
+    margin: 0 auto;
 }
 
 .texto{
 
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 180%;
 
     background-color: rgba(255, 255, 255, 0);
     color: white;
@@ -158,7 +178,7 @@ h1.conteudo{
 .box1{
     position: static;
 
-    background-color: #FF8E2B;
+    background-color: #03071e;
 
     width: 400px;
     height: 50px;
@@ -169,7 +189,7 @@ h1.conteudo{
 .box2{
     position: relative;
 
-    background-color: #FF8E2B;
+    background-color: #03071e;
 
     width: 400px;
     height: 50px;
@@ -196,7 +216,7 @@ h1.conteudo{
 .box3{
     position: absolute;
 
-    background-color: #FF8E2B;
+    background-color: #03071e;
 
     width: 400px;
     height: 50px;
@@ -210,7 +230,7 @@ h1.conteudo{
 .box4{
     position: fixed;
 
-    background-color: #FF8E2B;
+    background-color: #03071e;
 
     width: 400px;
     height: 50px;
@@ -224,7 +244,7 @@ h1.conteudo{
 .box5{
     position: sticky;
 
-    background-color: #FF8E2B;
+    background-color: #03071e;
 
     width: 400px;
     height: 50px;
@@ -264,7 +284,7 @@ h1.conteudo{
 code{
     padding: 2px 3px 2px 3px;
     font-size: 16px;
-    background-color: #FF8E2B;
+    background-color: #03071e;
     color: white;
 }
 
