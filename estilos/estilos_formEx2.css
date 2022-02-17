@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, #fff8dc, #ffffff);
-    color: #30706f;
+    background-color: #bababa;
+    color: #03071e;
     margin: 0 auto;
 }
 
@@ -10,15 +10,15 @@ h1{
     text-align: center;
     margin: 30px;
     padding: 32px;
-    background-color: #b51630;
-    color: #fff8dc;
+    background-color: #d00000;
+    color: #D9D9D9;
     margin: 0px;
     margin-bottom: 40px;
 }
 
 form{
     font-size: 12px;
-    background-color: #fff8dc;
+    background-color: #D9D9D9;
     max-width: 35%;
     border-radius: 5px;
     box-shadow: 0px 0px 40px #72727252;
@@ -50,7 +50,7 @@ input:hover, textarea:hover, input:focus, textarea:focus{
 
 .enviar{
     background-color: #b51630;
-    color: #fff8dc;
+    color: white;
     padding: 12px 0px;
     width: 20%;
 }

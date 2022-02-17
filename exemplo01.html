@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Exemplo 01</title>
+
+    <link href="estilos/estilos_formEx2.css" rel="stylesheet">
+
     <script rel="text/javascript" src="scripts/exemplo01.js"></script>
 </head>
     <body>
+        <form name="exemplo01" onsubmit="return calcular()">
+            <label for="primeiroNumero">Primeiro Número</label>
+            <br>
+            <input type="text" id="primeiroNumero" placeholder="Digite um número">
+
+            <br>
+
+            <label for="segundoNumero">Segundo Número</label>
+            <br>
+            <input type="text" id="segundoNumero" placeholder="Digite outro número">
+
+            <br>
+
+            <input type="submit" class="calcular" value="Calcular">
+        </form>
     </body>
 </html>

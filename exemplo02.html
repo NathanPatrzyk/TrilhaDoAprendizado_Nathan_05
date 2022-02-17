@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Exemplo 02</title>
+
+    <link href="estilos/estilos_formEx2.css" rel="stylesheet">
+
     <script rel="text/javascript" src="scripts/exemplo02.js"></script>
+
 </head>
     <body>
+        <form name="exemplo02" onsubmit="return calcular()">
+            <label for="dia">Dia da Semana</label>
+            <br>
+            <input type="text" id="dia" placeholder="Digite o número correspondente ao dia da semana:">
+
+            <br>
+
+            <input type="submit" class="calcular" value="Calcular">
     </body>
 </html>
