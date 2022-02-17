@@ -1,18 +1,20 @@
-var numeroElementos = parseInt(prompt("Digite quantos elementos deseja na sua série de Fibonacci"))
+function calcular() {
+	var numeroElementos = parseInt(document.getElementById("numeroElementos").value)
 
-var contador
-var contadorInicial = 0
-var contadorReserva = 1
-var contadorSoma
+	var contador
+	var contadorInicial = 0
+	var contadorReserva = 1
+	var contadorSoma
 
-document.write("[")
+	document.write("[")
 
-for (contador=0;contador<numeroElementos;contador++){
-	contadorSoma = contadorReserva + contadorInicial
-	contadorReserva = contadorInicial
-	contadorInicial = contadorSoma
-	
-	document.write(" "+contadorInicial+" , ")
+	for (contador = 0; contador < numeroElementos; contador++) {
+		contadorSoma = contadorReserva + contadorInicial
+		contadorReserva = contadorInicial
+		contadorInicial = contadorSoma
+
+		document.write(" " + contadorInicial + " , ")
+	}
+
+	document.write("]")
 }
-
-document.write("]")

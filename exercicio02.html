@@ -5,8 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 02</title>
+
+    <link href="estilos/estilos_formEx2.css" rel="stylesheet">
     <script rel="text/javascript" src="scripts/exercicio02.js"></script>
 </head>
-    <body>
-    </body>
+<body>
+    <form name="exercicio01" onsubmit="return calcular()">
+        <label for="escolha">Código de Escolha de Moeda</label>
+        <br>
+        <input type="text" id="escolha" placeholder="Digite o código (Sendo: 1-Real, 2-Dólar)">
+
+        <br>
+
+        <input type="submit" class="calcular" value="Calcular">
+    </form>
+</body>
 </html>
